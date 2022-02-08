@@ -91,7 +91,9 @@
           "show_currency_selector": true,
           "show_currency_flags": true,
           "show_social_icons": true,
-          "menu": "footer",
+          "menu": "information",
+          "menu_2": "ajrcollection-footer",
+          "contact": "<ul class=\"no-bullets inline-list site-footer__linklist\">\n<li><a href=\"mailto:info@ajrcollection.com\" target=\"_blank\">info@ajrcollection.com<\/a><\/li>\n<li><a href=\"tel:+450000000\"> Tel: +450000000<\/a><\/li>\n<\/ul>",
           "show_payment_icons": false,
           "show_copyright": false,
           "copyright_text": ""
