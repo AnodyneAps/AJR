@@ -6,7 +6,7 @@
         "title": "AJRCOLLECTION",
         "title_size": 77,
         "subheading": "Make your life more comfortable",
-        "link_text": "<b>SHOP NOW<\/b>",
+        "link_text": "SHOP NOW",
         "link": "shopify:\/\/collections\/all",
         "color_accent": "#111111",
         "text_align": "vertical-bottom horizontal-center",
@@ -21,7 +21,7 @@
         "title": "Products",
         "description": "",
         "home_featured_products": "all",
-        "per_row": "small",
+        "per_row": "medium",
         "alt": false
       }
     },
@@ -78,7 +78,7 @@
         "title_size": 80,
         "subheading": "#ajrunderwear",
         "link": "shopify:\/\/collections\/all",
-        "link_text": "<b>SHOP NOW<\/b>",
+        "link_text": "SHOP NOW",
         "color_accent": "#ffffff",
         "text_align": "vertical-center horizontal-center",
         "desktop_size": 0,
@@ -129,14 +129,13 @@
     },
     "featured-collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Featured collection grid",
-        "description": "For more traditional layouts",
-        "home_featured_products": "",
+        "title": "choose your favourite mix",
+        "description": "An athletic fabric blend that completes the luxurious feel of the underwear",
+        "home_featured_products": "all",
         "rows": 2,
-        "per_row_desktop": 4,
-        "per_row_mobile": "2",
+        "per_row_desktop": 2,
+        "per_row_mobile": "1",
         "view_all": true,
         "alt": false
       }
