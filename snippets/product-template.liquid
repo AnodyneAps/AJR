@@ -284,6 +284,12 @@
                           </ul>
                         </div>
                       {%- endunless -%}
+                      <div class="custom_color_swatches">
+                        <a href="" class="color"><span class="co {% if product.handle contains "black-white" %}bw{% elsif product.handle contains "gray"%}g{% elsif product.handle contains "black" %}b{% else %}a{%endif%} color-black"></span></a>
+                        <a href="" class="color"><span class="co {% if product.handle contains "black-white" %}bw{% elsif product.handle contains "gray"%}g{% elsif product.handle contains "black" %}b{% else %}a{%endif%} color-black-white"></span></a>
+                        <a href="" class="color"><span class="co {% if product.handle contains "black-white" %}bw{% elsif product.handle contains "gray"%}g{% elsif product.handle contains "black" %}b{% else %}a{%endif%} color-gray"></span></a>
+                        <a href="" class="color"><span class="co {% if product.handle contains "black-white" %}bw{% elsif product.handle contains "gray"%}g{% elsif product.handle contains "black" %}b{% else %}a{%endif%} color-mix"></span></a>
+                      </div>
                     {%- when 'inventory_status' -%}
                       <div class="product-block product-block--sales-point" {{ block.shopify_attributes }}>
                         {%- render 'product-inventory', section_id: section_id, product: product, current_variant: current_variant, block: block -%}

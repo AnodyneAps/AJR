@@ -284,6 +284,12 @@
     },
     "footer": {
       "social_platform": "{{ name }} on {{ platform }}"
+    },
+    "footer-title":{
+      "information": "information",
+      "ajr": "AJRcollection",
+      "contact": "contact",
+      "social": "socials"
     }
   },
   "products": {

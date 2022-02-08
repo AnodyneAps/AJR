@@ -1,4 +1,5 @@
 <ul class="no-bullets inline-list {{ social_class }}">
+  <h5>{{ 'layout.footer-title.social' | t }}</h5>
   {%- if settings.social_instagram_link != blank -%}
     <li>
       <a target="_blank" rel="noopener" href="{{ settings.social_instagram_link }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Instagram' }}">

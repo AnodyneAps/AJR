@@ -52,6 +52,8 @@
   --color-body-text:{{ settings.color_body_text | default: "#1c1d1d" }};
   --color-body:{{ settings.color_body_bg | default: "#fff" }};
   --color-bg:{{ settings.color_body_bg | default: "#fff" }};
+  --color-gray: #f7f7f7;
+  --transition: 300ms ease-in all;
 }
 
 @keyframes placeholder-shimmer{
@@ -3309,14 +3311,56 @@ svg.icon:not(.icon--full-color) circle,svg.icon:not(.icon--full-color) ellipse,s
 }
 
 .site-footer{
-  font-size:calc(var(--typeBaseSize)*0.85 - 1.7px)
+  font-size:calc(var(--typeBaseSize)*0.85 - 1.7px);
+  background-color: var(--colorTextBody);
+  color: var(--color-body);
+}
+
+.site-footer .footer-contain {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.site-footer .footer-contain .site-footer__linklist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.site-footer .footer-contain .site-footer__linklist li a{
+  color: rgb(180, 180, 180);
+  transition: var(--transition);
+}
+.site-footer .footer-contain .site-footer__linklist li a:hover{
+  color: var(--color-body);
+}
+.site-footer .footer-contain .site-footer__linklist h5, .site-footer .footer-contain .footer__social h5{
+  margin-top: 32px;
+}
+.site-footer .footer-contain .footer__social{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (min-width:769px){
 
-.site-footer{
-    font-size:calc(var(--typeBaseSize) - 2px)
-}
+    .site-footer{
+        font-size:calc(var(--typeBaseSize) - 2px)
+    }
+    .site-footer .footer-contain {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+    .site-footer .footer-contain .site-footer__linklist{
+      align-items: flex-start;
+    }
+    .site-footer .footer-contain .footer__social {
+      align-items: flex-start;
+    }
   }
 
 .site-footer{
@@ -3334,15 +3378,15 @@ svg.icon:not(.icon--full-color) circle,svg.icon:not(.icon--full-color) ellipse,s
 }
   }
 
-.site-footer__section+.site-footer__section{
+/* .site-footer__section+.site-footer__section{
   margin-top:10px
-}
+} */
 
 @media only screen and (min-width:769px){
 
-.site-footer__section+.site-footer__section{
-    margin-top:20px
-}
+    /* .site-footer__section+.site-footer__section{
+        margin-top:20px
+    } */
   }
 
 .footer__title{
@@ -3380,9 +3424,9 @@ svg.icon:not(.icon--full-color) circle,svg.icon:not(.icon--full-color) ellipse,s
 
 .site-footer__section--newsletter{
   background-color:{{ settings.color_newsletter | default: "#1c1d1d" }};
-  background-color:var(--colorNewsletter);
+  background-color:var(--color-gray);
   color:{{ settings.color_newsletter_text | default: "#fff" }};
-  color:var(--colorNewsletterText);
+  color:var(--colorNewsletter);
   padding:80px 0;
   margin-bottom:80px
 }
@@ -10316,3 +10360,47 @@ select .variant-input{
   }
 
 #tidio-chat iframe{ bottom:calc(100px + env(safe-area-inset-bottom)) !important }
+.custom_color_swatches{
+
+}
+.custom_color_swatches .color{
+  display: inline-block;
+}
+.custom_color_swatches .color .co{
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-color: black;
+  margin: .1rem;
+  border-radius: 50%;
+  outline: 2px solid #999;
+}
+.custom_color_swatches .color .co.bw.color-black-white{
+outline: 2px solid var(--colorCartDot);
+outline-offset: 0;
+}
+.custom_color_swatches .color .co.b.color-black{
+outline: 2px solid var(--colorCartDot);
+outline-offset: 0;
+}
+.custom_color_swatches .color .co.g.color-gray{
+  outline: 2px solid var(--colorCartDot);
+  outline-offset: 0;
+  }
+  .custom_color_swatches .color .co.a.color-mix{
+    outline: 2px solid var(--colorCartDot);
+    outline-offset: 0;
+    }
+    .custom_color_swatches .color .color-black{
+      background: black;
+    }
+.custom_color_swatches .color .color-black-white{
+  background: linear-gradient(to right, black 50%, white 50%);
+}
+.custom_color_swatches .color .color-gray{
+  background: gray;
+  
+}
+.custom_color_swatches .color .color-mix{
+  background: conic-gradient(black 40%, white 0 70%, gray 0);;
+}

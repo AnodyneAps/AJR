@@ -45,7 +45,7 @@
     </div>
   {%- endif -%}
 
-  <div class="page-width">
+  <div class="page-width ">
 
     {%- if show_selectors -%}
       {%- form 'localization', class: 'multi-selectors site-footer__section', data-disclosure-form: '' -%}
@@ -113,23 +113,44 @@
       {%- endform -%}
     {%- endif -%}
 
-    {%- if section.settings.show_social_icons -%}
-      <div class="site-footer__section">
-        {%- render 'social-icons', social_class: 'footer__social' -%}
-      </div>
-    {%- endif -%}
+          <div class="footer-contain">
+          {%- if linklists[section.settings.menu].links.size > 0 -%}
+            <div class="site-footer__section">
+              <ul class="no-bullets inline-list site-footer__linklist">
+                <h5>{{ 'layout.footer-title.information' | t }}</h5>
+                {%- for link in linklists[section.settings.menu].links -%}
+                  <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                {%- endfor -%}
+              </ul>
+            </div>
+          {%- endif -%}
+          {%- if linklists[section.settings.menu_2].links.size > 0 -%}
+          <div class="site-footer__section">
+            <ul class="no-bullets inline-list site-footer__linklist two">
+              <h5>{{ 'layout.footer-title.ajr' | t }}</h5>
+              {%- for link in linklists[section.settings.menu_2].links -%}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endif -%}
+        {%- if section.settings.contact != blank -%}
+        <div class="site-footer__section">
+          <ul class="no-bullets inline-list site-footer__linklist two">
+            <h5>{{ 'layout.footer-title.contact' | t }}</h5>
+             {{section.settings.contact}}
+          </ul>
+        </div>
+        {%- endif -%}
+        {%- if section.settings.show_social_icons -%}
+        <div class="site-footer__section">
+          {%- render 'social-icons', social_class: 'footer__social' -%}
+        </div>
+      {%- endif -%}
 
-    {%- if linklists[section.settings.menu].links.size > 0 -%}
-      <div class="site-footer__section">
-        <ul class="no-bullets inline-list site-footer__linklist">
-          {%- for link in linklists[section.settings.menu].links -%}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-          {%- endfor -%}
-        </ul>
-      </div>
-    {%- endif -%}
-
-    {%- if section.settings.show_payment_icons -%}
+       </div>
+    <div class="footer-bottom">
+      {%- if section.settings.show_payment_icons -%}
       {%- unless shop.enabled_payment_types == empty -%}
         <div class="site-footer__section">
           <ul class="inline-list payment-icons">
@@ -142,18 +163,18 @@
         </div>
       {%- endunless -%}
     {%- endif -%}
+   <div class="site-footer__section site-footer__copyright">
+     {%- if section.settings.show_copyright -%}
+       <span>
+         &copy; {{ 'now' | date: '%Y' }} {{ shop.name }}
+         {%- if section.settings.copyright_text != blank -%}
+           {{ section.settings.copyright_text }} 
 
-
-    <div class="site-footer__section site-footer__copyright">
-      {%- if section.settings.show_copyright -%}
-        <span>
-          &copy; {{ 'now' | date: '%Y' }} {{ shop.name }}
-          {%- if section.settings.copyright_text != blank -%}
-            {{ section.settings.copyright_text }}
-          {%- endif -%}
-        </span>
-      {%- endif -%}
-      <span class="footer__powered_by">{{ powered_by_link }}</span>
+         {%- endif -%}
+       </span>
+     {%- endif -%}
+     <!-- <span class="footer__powered_by">{{ powered_by_link }}</span> -->
+   </div>
     </div>
   </div>
 </footer>
@@ -229,6 +250,19 @@
         "label": "Choose a menu",
         "default": "footer",
         "info": "Optional. This menu won't show dropdown items"
+      },
+      {
+        "type": "link_list",
+        "id": "menu_2",
+        "label": "Choose a menu",
+        "default": "footer",
+        "info": "Optional. This menu won't show dropdown items"
+      },
+      {
+        "type": "html",
+        "id": "contact",
+        "label": "Add custom html links",
+        "info": "Add html or html links"
       },
       {
         "type": "checkbox",
