@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Get in touch"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>At AJRcollection we are ready to help you before, during and after you place an order. We do our best to answer your e-mail request within 24 hours on weekdays.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "show_phone": true,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich-text",
+    "form"
+  ]
+}
