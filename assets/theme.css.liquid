@@ -52,7 +52,9 @@
   --color-body-text:{{ settings.color_body_text | default: "#1c1d1d" }};
   --color-body:{{ settings.color_body_bg | default: "#fff" }};
   --color-bg:{{ settings.color_body_bg | default: "#fff" }};
+  /* new custom colors  */
   --color-gray: #f7f7f7;
+  --color-hsl: hsl(0, 0%, 85%);
   --transition: 300ms ease-in all;
 }
 
@@ -3312,7 +3314,7 @@ svg.icon:not(.icon--full-color) circle,svg.icon:not(.icon--full-color) ellipse,s
 
 .site-footer{
   font-size:calc(var(--typeBaseSize)*0.85 - 1.7px);
-  background-color: var(--colorTextBody);
+  background-color: #202020;
   color: var(--color-body);
 }
 
@@ -6102,7 +6104,7 @@ html.pswp-open-in-ios,html.pswp-open-in-ios body{
     border-radius:100%;
     border:2px solid;
     border-color:{{ settings.color_body_text | default: "#1c1d1d" }};
-    border-color:var(--colorTextBody);
+    border-color:var(--color-hsl);
     padding:14px;
     line-height:1
   }
@@ -10363,6 +10365,10 @@ select .variant-input{
 .custom_color_swatches{
 
 }
+.custom_color_swatches{
+  text-align: center;
+  margin-bottom: 20px;
+}
 .custom_color_swatches .color{
   display: inline-block;
 }
@@ -10371,25 +10377,21 @@ select .variant-input{
   width: 44px;
   height: 44px;
   background-color: black;
-  margin: .1rem;
   border-radius: 50%;
-  outline: 2px solid #999;
+  border: 2px solid var(--color-hsl);
 }
 .custom_color_swatches .color .co.bw.color-black-white{
-outline: 2px solid var(--colorCartDot);
-outline-offset: 0;
+border: 2px solid var(--colorCartDot);
+
 }
 .custom_color_swatches .color .co.b.color-black{
-outline: 2px solid var(--colorCartDot);
-outline-offset: 0;
+  border: 2px solid var(--colorCartDot);
 }
 .custom_color_swatches .color .co.g.color-gray{
-  outline: 2px solid var(--colorCartDot);
-  outline-offset: 0;
+  border: 2px solid var(--colorCartDot);
   }
   .custom_color_swatches .color .co.a.color-mix{
-    outline: 2px solid var(--colorCartDot);
-    outline-offset: 0;
+    border: 2px solid var(--colorCartDot);
     }
     .custom_color_swatches .color .color-black{
       background: black;
@@ -10398,9 +10400,15 @@ outline-offset: 0;
   background: linear-gradient(to right, black 50%, white 50%);
 }
 .custom_color_swatches .color .color-gray{
-  background: gray;
+  background: #eaeaea;
   
 }
 .custom_color_swatches .color .color-mix{
   background: conic-gradient(black 40%, white 0 70%, gray 0);;
+}
+
+@media only screen and (min-width:769px){
+  .custom_color_swatches{
+    text-align: left;
+  }
 }
