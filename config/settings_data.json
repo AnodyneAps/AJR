@@ -70,7 +70,8 @@
           "sticky_index": true,
           "sticky_collection": false,
           "header_search_enable": true,
-          "logo": "shopify:\/\/shop_images\/4E1FA98E-63D2-4A02-919B-FB1E6424917D-removebg-preview-768x202.png",
+          "logo": "shopify:\/\/shop_images\/ajr-logo-dark.png",
+          "logo-inverted": "shopify:\/\/shop_images\/ajr-logo-light.png",
           "desktop_logo_width": 150,
           "mobile_logo_width": 120,
           "logo_hide_mobile": true,
@@ -93,7 +94,7 @@
           "show_social_icons": true,
           "menu": "information",
           "menu_2": "ajrcollection-footer",
-          "contact": "<ul class=\"no-bullets inline-list site-footer__linklist\">\n<li><a href=\"mailto:info@ajrcollection.com\" target=\"_blank\">info@ajrcollection.com<\/a><\/li>\n<li><a href=\"tel:+450000000\"> Tel: +450000000<\/a><\/li>\n<\/ul>",
+          "contact": "<ul class=\"no-bullets inline-list site-footer__linklist\">\n<li><a href=\"mailto:info@ajrcollection.com\" target=\"_blank\">info@ajrcollection.com<\/a><\/li>\n<li><a href=\"tel:+4552449362\">+4552449362<\/a><\/li>\n<\/ul>",
           "show_payment_icons": false,
           "show_copyright": false,
           "copyright_text": ""
