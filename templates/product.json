@@ -25,14 +25,14 @@
         "inventory_status": {
           "type": "inventory_status",
           "settings": {
-            "inventory_threshold": 10,
-            "inventory_transfers_enable": true
+            "inventory_threshold": 0,
+            "inventory_transfers_enable": false
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "surface_pickup_enable": true
           }
         },

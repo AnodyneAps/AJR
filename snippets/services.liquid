@@ -1,0 +1,27 @@
+<div class="page-width">
+	<div class="services-main">
+		{% assign main_title = section.settings.title %}
+		{%if main_title !=blank %}
+		<h2 class="service-title section-header__title apear-delay">{{main_title}}</h2>
+		{% endif%}
+		<div class="service-wrapper" id="service-list-{{ section.id }}">
+			{%- for block in section.blocks -%}
+			<a href="{{block.settings.uspLinkUrl}}" class="services-item" {{
+				block.shopify_attributes }}>
+				<div class="content">
+					<div class="content-imagebox">
+						<img class="img" src="{{block.settings.icon | img_url: '60x60' }}" alt="{{block.settings.title}}">
+					</div>
+					<div class="content-textbox">
+						<h5 class="title">{{block.settings.title}}</h5>
+						<div class="info">{{block.settings.description}}</div>
+					</div>
+				</div>
+			</a>
+			{%- endfor -%}
+		</div>
+	</div>
+
+	{%- if section.blocks.size == 0 -%}
+	{%- endif -%}
+</div>

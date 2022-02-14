@@ -15,6 +15,9 @@
         "mobile_height": "100vh"
       }
     },
+    "featured-services": {
+      "type": "featured-services"
+    },
     "featured-collection-slider": {
       "type": "featured-collection-slider",
       "settings": {
@@ -245,6 +248,7 @@
   },
   "order": [
     "hero-video",
+    "featured-services",
     "featured-collection-slider",
     "rich-text",
     "hero-animated",
