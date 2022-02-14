@@ -108,6 +108,10 @@
         "max_width": true
       }
     },
+    "featured-services": {
+      "type" : "featured-services",
+      "settings": {}
+    },
     "background-image-text": {
       "type": "background-image-text",
       "settings": {
@@ -208,6 +212,7 @@
   "order": [
     "main",
     "sub",
+    "featured-services",
     "background-image-text",
     "text-and-image",
     "text-and-image2",
