@@ -196,7 +196,7 @@
                         {%- endif -%}
                       </div>
                       <div class="custom_color_swatches">
-                        <label for="colors" class="variant__label">Color</label>
+                        <label for="colors" class="variant__label">Color:   {{ product.title| downcase}}</label>
                         <a  title="black" target="_self" href="/collections/all/products/ajr-3-pack-box-black" class="color"><span class="co {% if product.handle contains "black-white" %}bw{% elsif product.handle contains "gray"%}g{% elsif product.handle contains "black" %}b{% else %}a{%endif%} color-black"></span></a>
                         <a title="black and white mix" target="_self" href="/collections/all/products/ajr-3-pack-box-black-white" class="color"><span class="co {% if product.handle contains "black-white" %}bw{% elsif product.handle contains "gray"%}g{% elsif product.handle contains "black" %}b{% else %}a{%endif%} color-black-white"></span></a>
                         <a title="gray" target="_self" href="/collections/all/products/ajr-3-pack-box-gray" class="color"><span class="co {% if product.handle contains "black-white" %}bw{% elsif product.handle contains "gray"%}g{% elsif product.handle contains "black" %}b{% else %}a{%endif%} color-gray"></span></a>

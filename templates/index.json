@@ -16,7 +16,54 @@
       }
     },
     "featured-services": {
-      "type": "featured-services"
+      "type": "featured-services",
+      "blocks": {
+        "210de3e5-9091-4e87-86d5-a939b05f10d6": {
+          "type": "service",
+          "settings": {
+            "title": "No rolling up issues",
+            "description": "The unique combination of fabric and design makes the underwear stay in place with every movement",
+            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "uspLinkUrl": ""
+          }
+        },
+        "79cb045f-9ed0-445d-8723-e67de2c5dd77": {
+          "type": "service",
+          "settings": {
+            "title": "Comfortable on the skin",
+            "description": "Made of 94% cotton stretch and 6% spandex, giving you a soft and comfortable feel all day",
+            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "uspLinkUrl": ""
+          }
+        },
+        "1a6c3af6-32fd-4660-bb6e-4ccaa3fd2cf3": {
+          "type": "service",
+          "settings": {
+            "title": "Unique flexible fit",
+            "description": "Stretchy and flexible fit with a soft elastic waistband for comfort all day",
+            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "uspLinkUrl": ""
+          }
+        },
+        "65d31d00-ace9-4f6e-8ee2-69ce9ec5b685": {
+          "type": "service",
+          "settings": {
+            "title": "Perfect fit for sports",
+            "description": "Designed for sports and everyday comfort. The design and combination of fabrics enables unlimited performance.",
+            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "uspLinkUrl": ""
+          }
+        }
+      },
+      "block_order": [
+        "210de3e5-9091-4e87-86d5-a939b05f10d6",
+        "79cb045f-9ed0-445d-8723-e67de2c5dd77",
+        "1a6c3af6-32fd-4660-bb6e-4ccaa3fd2cf3",
+        "65d31d00-ace9-4f6e-8ee2-69ce9ec5b685"
+      ],
+      "settings": {
+        "title": ""
+      }
     },
     "featured-collection-slider": {
       "type": "featured-collection-slider",
@@ -54,6 +101,10 @@
         "narrow_column": true,
         "alt": false
       }
+    },
+    "video-background": {
+      "type": "video-background",
+      "settings": {}
     },
     "hero-animated": {
       "type": "hero-animated",
@@ -245,12 +296,14 @@
         "speed": "normal"
       }
     }
+
   },
   "order": [
     "hero-video",
     "featured-services",
     "featured-collection-slider",
     "rich-text",
+    "video-background",
     "hero-animated",
     "featured-collection-slider2",
     "slideshow",

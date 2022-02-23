@@ -109,8 +109,54 @@
       }
     },
     "featured-services": {
-      "type" : "featured-services",
-      "settings": {}
+      "type": "featured-services",
+      "blocks": {
+        "d119e3d0-6043-4c2c-87c1-00fda786ae5c": {
+          "type": "service",
+          "settings": {
+            "title": "No rolling up issues",
+            "description": "The unique combination of fabric and design makes the underwear stay in place with every movement",
+            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "uspLinkUrl": ""
+          }
+        },
+        "2ca5f227-ee17-4dfd-9bf7-550daf74fd2c": {
+          "type": "service",
+          "settings": {
+            "title": "Comfortable on the skin",
+            "description": "Made of 94% cotton stretch and 6% spandex, giving you a soft and comfortable feel all day",
+            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "uspLinkUrl": ""
+          }
+        },
+        "5e61dd9b-9561-419b-8138-fd6f48b4c626": {
+          "type": "service",
+          "settings": {
+            "title": "Unique flexible fit",
+            "description": "Stretchy and flexible fit with a soft elastic waistband for comfort all day",
+            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "uspLinkUrl": ""
+          }
+        },
+        "a454d2ff-8d4d-44d5-81b0-61b829dd9c17": {
+          "type": "service",
+          "settings": {
+            "title": "Perfect fit for sports",
+            "description": "Designed for sports and everyday comfort. The design and combination of fabrics enables unlimited performance",
+            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "uspLinkUrl": ""
+          }
+        }
+      },
+      "block_order": [
+        "d119e3d0-6043-4c2c-87c1-00fda786ae5c",
+        "2ca5f227-ee17-4dfd-9bf7-550daf74fd2c",
+        "5e61dd9b-9561-419b-8138-fd6f48b4c626",
+        "a454d2ff-8d4d-44d5-81b0-61b829dd9c17"
+      ],
+      "settings": {
+        "title": ""
+      }
     },
     "background-image-text": {
       "type": "background-image-text",

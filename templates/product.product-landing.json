@@ -78,6 +78,10 @@
       "type": "collection-return",
       "settings": {}
     },
+    "video-background": {
+      "type": "video-background",
+      "settings": {}
+    },
     "hero-animated": {
       "type": "hero-animated",
       "blocks": {
@@ -140,6 +144,7 @@
     }
   },
   "order": [
+    "video-background",
     "hero-animated",
     "text-and-image",
     "text-and-image2",

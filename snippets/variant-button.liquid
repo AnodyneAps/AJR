@@ -22,7 +22,7 @@
     data-index="option{{ option_index }}"
     data-handle="{{ option.name | handleize }}"
     id="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
-    <legend class="hide">{{ option.name }}</legend>
+    <legend class="hide">{{ option.name }} </legend>
     {%- for value in option.values -%}
       {%- assign product_available = true -%}
       {%- if product.options.size == 1 -%}
