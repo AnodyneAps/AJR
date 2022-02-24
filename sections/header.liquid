@@ -7,10 +7,8 @@
     - center
     - right
 {% endcomment %}
-
 {%- liquid
   assign main_menu = linklists[section.settings.main_menu_link_list]
-
   assign menu_alignment = section.settings.main_menu_alignment
   assign logo_alignment = 'left'
   if menu_alignment == 'center-left' or menu_alignment == 'center-split' or menu_alignment == 'center'
@@ -53,12 +51,14 @@
   }
 
   {% if mobile_menu_style == 'thumb' %}
+  @media only screen and (max-width:768px){
     body {
       {% comment %}
         Thumb menu button height + padding + 40
       {% endcomment %}
       padding-bottom: 148px;
     }
+  }
   {% endif %}
 
   {% if mobile_menu_style == 'top' %}
