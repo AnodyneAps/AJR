@@ -10,7 +10,7 @@
         "link": "shopify:\/\/collections\/all",
         "color_accent": "#111111",
         "text_align": "vertical-bottom horizontal-center",
-        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0627\/1234\/8917\/files\/FullSizeRender-origin.mp4?v=1644232450",
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0627\/1234\/8917\/files\/hero-video.mp4?v=1645612264",
         "section_height": "750px",
         "mobile_height": "100vh"
       }
@@ -104,10 +104,79 @@
     },
     "video-background": {
       "type": "video-background",
+      "blocks": {
+        "919490fe-61c9-420b-9037-904ac8e663df": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0627\/1234\/8917\/files\/edit-me.mp4?v=1645611606",
+            "overlay_opacity": 40,
+            "title": "Make your life more comfortable",
+            "text": "<p>#ajrunderwear<\/p>",
+            "color_text": "#ffffff",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#252525"
+          }
+        }
+      },
+      "block_order": [
+        "919490fe-61c9-420b-9037-904ac8e663df"
+      ],
       "settings": {}
+    },
+    "1645620465336338d6": {
+      "type": "testimonials",
+      "blocks": {
+        "164562046565c88346-0": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/tet2_39e29a57-a536-4b13-b3f4-cfb1a8c7eac2.jpg",
+            "author": "Author's name"
+          }
+        },
+        "164562046565c88346-1": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/tet3_49330b3d-e049-4d4a-ab73-3b3f5e59e21d.jpg",
+            "author": "Author's name"
+          }
+        },
+        "67df9a08-5810-409e-9860-de67de36d468": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/tet1_59c1e781-899b-4ec5-81a0-2c1fde8297c6.jpg",
+            "author": "Author's name"
+          }
+        },
+        "9f0d4ca7-5ff8-48fb-b038-ea1ea5513490": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/tet1_d6dc69bc-03e8-43f8-82ad-d9f9f4af1602.jpg",
+            "author": "Author's name"
+          }
+        }
+      },
+      "block_order": [
+        "164562046565c88346-0",
+        "164562046565c88346-1",
+        "67df9a08-5810-409e-9860-de67de36d468",
+        "9f0d4ca7-5ff8-48fb-b038-ea1ea5513490"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": true,
+        "alt": false
+      }
     },
     "hero-animated": {
       "type": "hero-animated",
+      "disabled": true,
       "blocks": {
         "hero-animated-0": {
           "type": "image",
@@ -296,7 +365,6 @@
         "speed": "normal"
       }
     }
-
   },
   "order": [
     "hero-video",
@@ -304,6 +372,7 @@
     "featured-collection-slider",
     "rich-text",
     "video-background",
+    "1645620465336338d6",
     "hero-animated",
     "featured-collection-slider2",
     "slideshow",

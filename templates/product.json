@@ -46,7 +46,7 @@
           "type": "tab",
           "settings": {
             "title": "Materials",
-            "content": "<p>Quantity: 3-pack<br\/>Clothing type: Underwear<br\/>Made of cotton blend with stretch for extra soft comfort.<br\/>Soft elasticated waist with AJR logo.<br\/>Machine washable fabric: 94% cotton stretch, 6% spandex, with soft elastic<br\/>Colours: ALL BLACK, BLACK\/WHITE, SOLID GREY<\/p>",
+            "content": "<p>Made of cotton blend with stretch (94% cotton stretch, 6% spandex) for extra comfort. Soft elasticated waist with AJR logo.<br\/><\/p>",
             "page": ""
           }
         },
@@ -54,7 +54,7 @@
           "type": "tab",
           "settings": {
             "title": "Fit and size",
-            "content": "<p>Regular fit and breathable feel.<\/p>",
+            "content": "<p>Regular fit and breathable feel. We advice you to choose your normal size.<\/p>",
             "page": ""
           }
         },
@@ -62,7 +62,15 @@
           "type": "tab",
           "settings": {
             "title": "Washing instructions",
-            "content": "<p>Wash with dark<br\/>Colours wash separately<br\/>Colours may fade after regular washing and wear<br\/>Iron at low temperature<br\/>Tumble dry not recommended<br\/>Delicate wash, max. 40 °C.<\/p>",
+            "content": "<p>- Wash with dark<br\/>- Colours wash separately<br\/>- Colours may fade after regular washing and wear<br\/>- Iron at low temperature<br\/>- Tumble dry not recommended<br\/>- Delicate wash, max. 40 °C.<\/p>",
+            "page": ""
+          }
+        },
+        "231c9e89-29b9-4ae7-a765-53803f8f4473": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p><strong>Free worldwide shipping!<\/strong><\/p><p><strong>Standard <\/strong>delivery: between 2-4 days (Monday-Friday).<br\/><strong>Express <\/strong>delivery: between 1-2 days (Monday-Friday). <\/p>",
             "page": ""
           }
         },
@@ -76,6 +84,7 @@
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {}
         }
       },
@@ -89,6 +98,7 @@
         "tab",
         "36e6db7e-36af-46fc-b4f1-1ae0c92217e2",
         "74e81dfe-2861-497b-8595-3b64dc8ce631",
+        "231c9e89-29b9-4ae7-a765-53803f8f4473",
         "contact",
         "share"
       ],
@@ -158,8 +168,32 @@
         "title": ""
       }
     },
+    "1645619071806ac298": {
+      "type": "video-background",
+      "blocks": {
+        "1645619071f793a3da-0": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0627\/1234\/8917\/files\/edit-me.mp4?v=1645611606",
+            "overlay_opacity": 40,
+            "title": "AJR IN ACTION",
+            "text": "<p>By incorporating high quality materials into the production of the underwear, we are able to deliver a perfect, comfortable product with a unique soft-touch fit.<\/p>",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1645619071f793a3da-0"
+      ],
+      "settings": {}
+    },
     "background-image-text": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "",
         "title": "AJR in action",
@@ -259,6 +293,7 @@
     "main",
     "sub",
     "featured-services",
+    "1645619071806ac298",
     "background-image-text",
     "text-and-image",
     "text-and-image2",

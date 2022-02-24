@@ -124,12 +124,136 @@
       },
       "social": {
         "type": "social",
+        "blocks": {
+          "6f030d60-6851-4cdd-99a9-93578113966a": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Skaermbillede_2022-02-23_kl._09.14.13.png",
+              "link": "https:\/\/www.instagram.com\/p\/CQ0FTqyjZFy\/",
+              "product": "",
+              "account": "ajrcollectionn",
+              "caption": "Lets play some football at the desert with the brand new (Grey) AjrUnderwear🏜🌵⚽️...",
+              "likes": ""
+            }
+          },
+          "269eb1bf-de7f-49e2-912c-c2e33be3ad69": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Skaermbillede_2022-02-23_kl._09.39.09.png",
+              "link": "https:\/\/www.instagram.com\/p\/CKnt5yUBF50\/",
+              "product": "",
+              "account": "ajrcollectionn",
+              "caption": "#Repost • This is @nadi9nadim 🦖 . Nadia Nadim is a Danish football player who plays as a striker in...",
+              "likes": ""
+            }
+          },
+          "c150385c-852c-4e8d-b77a-3d6cd6c422bf": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Skaermbillede_2022-02-23_kl._09.45.45.png",
+              "link": "https:\/\/www.instagram.com\/p\/CKe6SGaBeVG\/",
+              "product": "",
+              "account": "ajrcollectionn",
+              "caption": "TRAILER OF SHORTA 🎬 @ajrcollectionn  ⭐️Tarek ZAYAT is a young danish actor...",
+              "likes": ""
+            }
+          },
+          "4116f75c-f6d9-479e-9864-599ba68cc76e": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Skaermbillede_2022-02-23_kl._09.49.16.png",
+              "link": "https:\/\/www.instagram.com\/p\/CKe0w3kBobJ\/",
+              "product": "",
+              "account": "ajrcollectionn",
+              "caption": "@kingarturo23oficial 👑 • Arturo Erasmo Vidal Pardo is a Chilean professional...",
+              "likes": ""
+            }
+          },
+          "d11d94d6-346c-4f72-9b22-c04c13ebfffa": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Skaermbillede_2022-02-23_kl._09.55.01.png",
+              "link": "https:\/\/www.instagram.com\/p\/CKUtY2Vhqq_\/",
+              "product": "",
+              "account": "ajrcollectionn",
+              "caption": "THE Danish Champion 🇩🇰🥇  An undefeated danish young talent get in touch with #AjrUnderwear 💪🏽",
+              "likes": ""
+            }
+          },
+          "147ec469-26a1-4f96-832f-8d857616ee74": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Skaermbillede_2022-02-23_kl._09.56.25.png",
+              "link": "https:\/\/www.instagram.com\/p\/CKPPK2nBaHO\/",
+              "product": "",
+              "account": "ajrcollectionn",
+              "caption": "#AjrUnderwear  We have produced all of our products using natural materials of the highest quality...",
+              "likes": ""
+            }
+          },
+          "cbef6498-1a4f-4003-947d-8a95cd5dc1b3": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Skaermbillede_2022-02-23_kl._10.05.54.png",
+              "link": "https:\/\/www.instagram.com\/p\/B8lb9oqBrbF\/",
+              "product": "",
+              "account": "ajrcollectionn",
+              "caption": "Papiss Cissé enjoying the #Ajrunderwear. If you want to try - Get yours now.. at @ajrcollectionn ☝️",
+              "likes": ""
+            }
+          },
+          "030e7838-bda3-4244-b53e-520265b73aa3": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Skaermbillede_2022-02-23_kl._10.07.27.png",
+              "link": "https:\/\/www.instagram.com\/p\/B8DnEAkhNun\/",
+              "product": "",
+              "account": "ajrcollectionn",
+              "caption": "@nickyandersen wearing #AjrUnderwear. #AJRpromotions",
+              "likes": ""
+            }
+          },
+          "dada92da-7a36-4f8b-80d2-99d391e867fa": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Skaermbillede_2022-02-23_kl._10.08.57.png",
+              "link": "https:\/\/www.instagram.com\/p\/B60960zBZmg\/",
+              "product": "",
+              "account": "ajrcollectionn",
+              "caption": "This is @gle_nn using our brand new #AjrUnderwear. What a beautiful view and amazing skills 💥⚽️🏝...",
+              "likes": ""
+            }
+          },
+          "40f1336f-9d48-4770-b1d2-c0dcf1860a76": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Skaermbillede_2022-02-23_kl._10.14.39.png",
+              "link": "https:\/\/www.instagram.com\/p\/B6zZvT3hqFK\/",
+              "product": "",
+              "account": "ajrcollectionn",
+              "caption": "We are in Dubai. This is coach ROOTS he enjoyed our #AjrWear 💪🏽 This #MyAjrs is a real winner that we...",
+              "likes": ""
+            }
+          }
+        },
+        "block_order": [
+          "6f030d60-6851-4cdd-99a9-93578113966a",
+          "269eb1bf-de7f-49e2-912c-c2e33be3ad69",
+          "c150385c-852c-4e8d-b77a-3d6cd6c422bf",
+          "4116f75c-f6d9-479e-9864-599ba68cc76e",
+          "d11d94d6-346c-4f72-9b22-c04c13ebfffa",
+          "147ec469-26a1-4f96-832f-8d857616ee74",
+          "cbef6498-1a4f-4003-947d-8a95cd5dc1b3",
+          "030e7838-bda3-4244-b53e-520265b73aa3",
+          "dada92da-7a36-4f8b-80d2-99d391e867fa",
+          "40f1336f-9d48-4770-b1d2-c0dcf1860a76"
+        ],
         "settings": {
           "enable_home": true,
           "enable_product": true,
           "enable_collection": false,
           "title": "On social",
-          "description": "<p>Send us yours <a href=\"https:\/\/instagram.com\/youraccount\/\">@youraccount<\/a><\/p>"
+          "description": "<p>Send us yours <a href=\"https:\/\/www.instagram.com\/ajrcollectionn\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/ajrcollectionn\/\">@ajrcollectionn<\/a><\/p>"
         }
       }
     },
