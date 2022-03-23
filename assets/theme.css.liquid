@@ -1179,12 +1179,12 @@ html{
 html[dir=rtl]{
   direction:rtl;
 }
-
 body,html{
   background-color:{{ settings.color_body_bg | default: "#fff" }};
   background-color:var(--colorBody);
   color:{{ settings.color_body_text | default: "#1c1d1d" }};
   color:var(--colorTextBody);
+  overflow-x: hidden !important;
 }
 
 .page-width{
@@ -6378,7 +6378,19 @@ iframe.zoid-component-frame{
   font-size:12px;
   opacity:0.8;
 }
-
+.cart__note label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.cart__note textarea {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 6px;
+    padding: 10px;
+    font-size:14px;
+}
+.cart__note textarea::placeholder {
+  font-size: 0.9rem;
+}
 .cart__empty-text{
   display:none
 }

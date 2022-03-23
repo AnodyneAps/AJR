@@ -3,9 +3,9 @@
     "hero-video": {
       "type": "hero-video",
       "settings": {
-        "title": "AJRCOLLECTION",
+        "title": "AJRcollection",
         "title_size": 77,
-        "subheading": "Make your life more comfortable",
+        "subheading": "The only pair of underwear you will ever want to wear again. Guaranteed!",
         "link_text": "SHOP NOW",
         "link": "shopify:\/\/collections\/all",
         "color_accent": "#111111",
@@ -23,7 +23,7 @@
           "settings": {
             "title": "No rolling up issues",
             "description": "The unique combination of fabric and design makes the underwear stay in place with every movement",
-            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "icon": "shopify:\/\/shop_images\/stof-design.png",
             "uspLinkUrl": ""
           }
         },
@@ -32,7 +32,7 @@
           "settings": {
             "title": "Comfortable on the skin",
             "description": "Made of 94% cotton stretch and 6% spandex, giving you a soft and comfortable feel all day",
-            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "icon": "shopify:\/\/shop_images\/cotton.png",
             "uspLinkUrl": ""
           }
         },
@@ -41,7 +41,7 @@
           "settings": {
             "title": "Unique flexible fit",
             "description": "Stretchy and flexible fit with a soft elastic waistband for comfort all day",
-            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "icon": "shopify:\/\/shop_images\/Unique-flex.png",
             "uspLinkUrl": ""
           }
         },
@@ -50,7 +50,7 @@
           "settings": {
             "title": "Perfect fit for sports",
             "description": "Designed for sports and everyday comfort. The design and combination of fabrics enables unlimited performance.",
-            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "icon": "shopify:\/\/shop_images\/perfect-sport.png",
             "uspLinkUrl": ""
           }
         }
@@ -72,6 +72,110 @@
         "description": "",
         "home_featured_products": "all",
         "per_row": "medium",
+        "alt": false
+      }
+    },
+    "1645620465336338d6": {
+      "type": "testimonials",
+      "blocks": {
+        "63789dc5-37a3-471c-9f6a-0dd71dd44284": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p><em>I have started using AJR underwear for matches, in fact they are so comfortable that I also use them for everyday use. I'm a goalkeeper when I jump and move a lot from side to side it just feels completely unique to wear some underpants, which just fits me well and I can definitely recommend you AJR underwear.<\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/595B072E-DA4C-4E9D-AB37-ED25AB7EEC75.jpg",
+            "author": "Mande Sayouba, OB - Superliga - Ivory Coast National Team"
+          }
+        },
+        "164562046565c88346-0": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p><em>This AJR underwear is pretty cool and I love to support this project.<\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/D391A2DD-580E-4DEE-907C-84725AEB3DD3.jpg",
+            "author": "Nadia Nadim, Danish women’s national team"
+          }
+        },
+        "164562046565c88346-1": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p><em>When I stand in front of world stars and have to perform at the highest level, it's good to wear some underwear that do not bother me while I’m playing. <\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/997F01D1-9DE0-4A2B-890B-DA58870441B8.jpg",
+            "author": "Nikolai Baden, Vitesse - latest a Juventus spiller"
+          }
+        },
+        "67df9a08-5810-409e-9860-de67de36d468": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p><em>I love wearing AJR underwear they are so very comfortable that I use them for matches and everyday. I have given them to my father several times and he loves them just as I do.<\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/3BB334CE-314D-42AC-A0D7-2CE178CDDF15.jpg",
+            "author": "Wessam Abou Ali, Vendsyssel FF"
+          }
+        },
+        "9f0d4ca7-5ff8-48fb-b038-ea1ea5513490": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p><em>After I started hearing good things about AJR underwear, it was my turn to try them. I definitely think the comfort and flexibility are some of the best underpants I ever had. I love using them, and look forward to getting more of the AJR products home.<\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/E76D3385-28D3-4332-B2C1-92738ADCC100.jpg",
+            "author": "Anis Slimame, Brøndby IF - Superliga - Tunisia National Team"
+          }
+        },
+        "e94ca362-4da1-4a74-af40-a0e88570e80c": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p><em>I am an ambassador for AJRcollection® and the reason I am it is because I think it is a really cool project and that I can use underwear that solve my problems in a match. <br\/><br\/>The underwear is so comfortable that I have changed cycling\/base layer shorts out with AJRcollection® underwear.<\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/Billede11.jpg",
+            "author": "Jonathan Kemdee, OB - Superliga - Thai national team player"
+          }
+        },
+        "553c3f6e-99d2-4601-8357-6dbb85e00c2a": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p><em>The first time I used the AJR it felt like I wasn't even wearing any underwear. They are so nice and have a great design and I love using them in my busy days. The comfort, fit and the unique cotton fabric just make them so delicious to wear while having the best flexibility stretch when I move.<\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/Billede13.jpg",
+            "author": "Tarek Zayat, Actor SHORTA - Viaplay Serie"
+          }
+        },
+        "45d24a2d-a9e3-4cf0-beed-92d6ef49326e": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p><em>When I train and play matches I wear AJR underwear. They are very comfortable on and off the pitch. I'm happy to be a part of AJRcollection®.<\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/Billede1_a80a7d63-1ff8-4437-b47c-c7c6236e9f72.jpg",
+            "author": "Gift Links, AGF - Superliga"
+          }
+        },
+        "73bd7e75-dae1-4ab1-a0cc-2c285798ca97": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p><em>The flexibility of the underwear is really good, especially when I move from side to side and when you have to react quickly. I love them, and I wear them to all my matches, and I look forward to following them in the future if there are more unique products, like these nice underwear.<\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/Billede12.jpg",
+            "author": "Dey Subhankar, Badminton World Best - Top 30"
+          }
+        },
+        "04db0c14-9448-47ea-a69e-e3e7035ada68": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p><em>This is seriously the best underwear I ever had, I love it so much. They are really comfortable and I use them for everyday life and when I play matches for my national team and Superliga. AJR underwear have the best fit in the market.<\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/8ED38D8F-DA08-4E05-8CD6-79D5250FCB29.jpg",
+            "author": "Mikael Anderson, AGF - Iceland National Team"
+          }
+        }
+      },
+      "block_order": [
+        "63789dc5-37a3-471c-9f6a-0dd71dd44284",
+        "164562046565c88346-0",
+        "164562046565c88346-1",
+        "67df9a08-5810-409e-9860-de67de36d468",
+        "9f0d4ca7-5ff8-48fb-b038-ea1ea5513490",
+        "e94ca362-4da1-4a74-af40-a0e88570e80c",
+        "553c3f6e-99d2-4601-8357-6dbb85e00c2a",
+        "45d24a2d-a9e3-4cf0-beed-92d6ef49326e",
+        "73bd7e75-dae1-4ab1-a0cc-2c285798ca97",
+        "04db0c14-9448-47ea-a69e-e3e7035ada68"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": false,
+        "square_images": true,
         "alt": false
       }
     },
@@ -124,55 +228,6 @@
         "919490fe-61c9-420b-9037-904ac8e663df"
       ],
       "settings": {}
-    },
-    "1645620465336338d6": {
-      "type": "testimonials",
-      "blocks": {
-        "164562046565c88346-0": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "image": "shopify:\/\/shop_images\/tet2_39e29a57-a536-4b13-b3f4-cfb1a8c7eac2.jpg",
-            "author": "Author's name"
-          }
-        },
-        "164562046565c88346-1": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "image": "shopify:\/\/shop_images\/tet3_49330b3d-e049-4d4a-ab73-3b3f5e59e21d.jpg",
-            "author": "Author's name"
-          }
-        },
-        "67df9a08-5810-409e-9860-de67de36d468": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "image": "shopify:\/\/shop_images\/tet1_59c1e781-899b-4ec5-81a0-2c1fde8297c6.jpg",
-            "author": "Author's name"
-          }
-        },
-        "9f0d4ca7-5ff8-48fb-b038-ea1ea5513490": {
-          "type": "testimonial",
-          "settings": {
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "image": "shopify:\/\/shop_images\/tet1_d6dc69bc-03e8-43f8-82ad-d9f9f4af1602.jpg",
-            "author": "Author's name"
-          }
-        }
-      },
-      "block_order": [
-        "164562046565c88346-0",
-        "164562046565c88346-1",
-        "67df9a08-5810-409e-9860-de67de36d468",
-        "9f0d4ca7-5ff8-48fb-b038-ea1ea5513490"
-      ],
-      "settings": {
-        "title": "Testimonials",
-        "align_text": "center",
-        "round_images": true,
-        "alt": false
-      }
     },
     "hero-animated": {
       "type": "hero-animated",
@@ -370,9 +425,9 @@
     "hero-video",
     "featured-services",
     "featured-collection-slider",
+    "1645620465336338d6",
     "rich-text",
     "video-background",
-    "1645620465336338d6",
     "hero-animated",
     "featured-collection-slider2",
     "slideshow",

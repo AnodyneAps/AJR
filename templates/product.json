@@ -54,7 +54,7 @@
           "type": "tab",
           "settings": {
             "title": "Fit and size",
-            "content": "<p>Regular fit and breathable feel. We advice you to choose your normal size.<\/p>",
+            "content": "<p>Regular fit and breathable feel. We advice you to choose your normal size. The model is wearing a size M. <\/p>",
             "page": ""
           }
         },
@@ -70,7 +70,7 @@
           "type": "tab",
           "settings": {
             "title": "Shipping information",
-            "content": "<p><strong>Free worldwide shipping!<\/strong><\/p><p><strong>Standard <\/strong>delivery: between 2-4 days (Monday-Friday).<br\/><strong>Express <\/strong>delivery: between 1-2 days (Monday-Friday). <\/p>",
+            "content": "<p><strong>Free worldwide shipping!<\/strong><\/p><p><strong>Standard delivery<\/strong>: Between 1-2 working days.<\/p>",
             "page": ""
           }
         },
@@ -126,7 +126,7 @@
           "settings": {
             "title": "No rolling up issues",
             "description": "The unique combination of fabric and design makes the underwear stay in place with every movement",
-            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "icon": "shopify:\/\/shop_images\/stof-design.png",
             "uspLinkUrl": ""
           }
         },
@@ -135,7 +135,7 @@
           "settings": {
             "title": "Comfortable on the skin",
             "description": "Made of 94% cotton stretch and 6% spandex, giving you a soft and comfortable feel all day",
-            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "icon": "shopify:\/\/shop_images\/cotton.png",
             "uspLinkUrl": ""
           }
         },
@@ -144,7 +144,7 @@
           "settings": {
             "title": "Unique flexible fit",
             "description": "Stretchy and flexible fit with a soft elastic waistband for comfort all day",
-            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "icon": "shopify:\/\/shop_images\/Unique-flex.png",
             "uspLinkUrl": ""
           }
         },
@@ -153,7 +153,7 @@
           "settings": {
             "title": "Perfect fit for sports",
             "description": "Designed for sports and everyday comfort. The design and combination of fabrics enables unlimited performance",
-            "icon": "shopify:\/\/shop_images\/Checkmark_2.png",
+            "icon": "shopify:\/\/shop_images\/perfect-sport.png",
             "uspLinkUrl": ""
           }
         }
@@ -274,6 +274,7 @@
         "title": "Testimonials",
         "align_text": "center",
         "round_images": true,
+        "square_images": false,
         "alt": false
       }
     },

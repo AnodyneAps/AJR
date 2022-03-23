@@ -81,6 +81,22 @@
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
 {{ 'ddshop-faq.css' | asset_url | stylesheet_tag }}
+
+
+<!-- Start of Sleeknote signup and lead generation tool - www.sleeknote.com -->
+<script id="sleeknoteScript" type="text/javascript">
+	(function () {
+		var sleeknoteScriptTag = document.createElement("script");
+		sleeknoteScriptTag.type = "text/javascript";
+		sleeknoteScriptTag.charset = "utf-8";
+		sleeknoteScriptTag.src = ("//sleeknotecustomerscripts.sleeknote.com/8999.js");
+		var s = document.getElementById("sleeknoteScript"); 
+		s.parentNode.insertBefore(sleeknoteScriptTag, s); 
+	})();
+</script>
+<!-- End of Sleeknote signup and lead generation tool - www.sleeknote.com -->
+
+
 </head>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}{% if settings.cart_type == 'sticky' and cart.item_count > 0 and template != 'cart' %} body--sticky-cart-open{% endif %}{% if cart.item_count > 0 %} cart-has-items{% endif %}" ontouchstart="return true;" data-transitions="{{settings.animate_page_transitions}}" data-animate_underlines="true" data-animate_images="{{settings.animate_images}}" data-button_style="{{settings.button_style}}" data-type_product_capitalize="{{settings.type_product_capitalize}}" data-type_header_capitalize="{{settings.type_header_capitalize}}" data-product_image_scatter="{{settings.product_image_scatter}}" data-button_type_style="{{settings.button_type_style}}">
