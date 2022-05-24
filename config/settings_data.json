@@ -45,6 +45,7 @@
     "enable_swatches": true,
     "cart_type": "drawer",
     "cart_notes_enable": true,
+    "cart_terms_conditions_enable": false,
     "social_instagram_link": "https:\/\/instagram.com\/ajrcollectionn",
     "social_facebook_link": "https:\/\/www.facebook.com\/Ajrcollectionn",
     "share_twitter": false,
