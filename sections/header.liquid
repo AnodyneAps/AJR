@@ -205,7 +205,13 @@
     {%- endif -%}
   {%- endif -%}
 </div>
-
+<div class="header-icons__fixed">
+    <a target="_blank" href="{%- if section.settings.header_instagram_link !=blank -%}{{section.settings.header_instagram_link}}{%- endif -%}" class="instagram_link">
+      {% unless section.settings.icon_selector == 'none' %}
+      <div class="iconlist-wrapper">{%- render 'icon' with {{section.settings.icon_selector}} -%}</div>
+      {% endunless %}
+    </a>
+</div>
 {%- if section.settings.header_search_enable -%}
   {%- render 'search-modal' -%}
 {%- endif -%}
@@ -360,6 +366,47 @@
         "type": "url",
         "id": "announcement_link",
         "label": "Announcement link"
+      },
+      {
+        "type": "header",
+        "content": "Header Social Navigation"
+      },
+      {
+        "type": "select",
+        "id": "icon_selector",
+        "label": "Select icon",
+        "options": [
+          {
+            "value": "none",
+            "label": "None"
+          },
+          {
+            "value": "instagram",
+            "label": "Instagram"
+          },
+          {
+            "value": "youtube",
+            "label": "Youtube"
+          },
+          {
+            "value": "facebook",
+            "label": "Facebook"
+          },
+          {
+            "value": "twitter",
+            "label": "Twitter"
+          },
+          {
+            "value": "linkedin",
+            "label": "Linkedin"
+          }
+        ],
+        "default": "none"
+      },
+      {
+        "type": "url",
+        "id": "header_instagram_link",
+        "label": "Add instagram link"
       }
     ]
   }

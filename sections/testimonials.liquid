@@ -11,6 +11,11 @@
         </h2>
       </header>
     {%- endif -%}
+    {% if section.settings.subtitle !=blank %}
+      <div class="testimonials__subtitle">
+       {{section.settings.subtitle}}
+      </div>
+    {% endif %}
     {%- if section.blocks.size > 0 -%}
       <div class="slideshow-wrapper">
         <div class="testimonials-slider" id="Testimonials-{{ section.id }}" data-count="{{ section.blocks.size }}">
@@ -52,13 +57,19 @@
 {% schema %}
   {
     "name": "Testimonials",
-    "max_blocks": 10,
+    "max_blocks": 20,
     "settings": [
       {
         "type": "text",
         "id": "title",
         "label": "Heading",
         "default": "Testimonials"
+      },
+      {
+        "type": "richtext",
+        "id": "subtitle",
+        "label": "subtitle",
+        "default": "<p>Testimonials subtitle</p>"
       },
       {
         "type": "select",
