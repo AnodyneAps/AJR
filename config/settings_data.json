@@ -85,7 +85,9 @@
           "show_announcement": true,
           "show_announcement_home_only": false,
           "announcement_text": "Free worldwide shipping!",
-          "announcement_link": ""
+          "announcement_link": "",
+          "icon_selector": "instagram",
+          "header_instagram_link": "https:\/\/instagram.com\/ajrcollectionn"
         }
       },
       "footer": {
@@ -260,7 +262,14 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "15323590465973626552": {
+        "type": "shopify:\/\/apps\/translate-currency-langshop\/blocks\/langshop\/84899e01-2b29-42af-99d6-46d16daa2111",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Core": {

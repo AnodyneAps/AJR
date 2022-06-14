@@ -2194,7 +2194,9 @@ img[data-sizes=auto]{
 .image-wrap{
   overflow:hidden;
   animation:placeholder-shimmer 1.3s linear 2s infinite;
-  background-size:400% 100%
+  background-size:400% 100%;
+  background-image: none;
+  padding-right: 20px;
 }
 
 .image-wrap.loaded{
@@ -9543,6 +9545,7 @@ select .variant-input{
 .custom-content{
   display:flex;
   align-items:stretch;
+  justify-content: center;
   flex-wrap:wrap;
   width:auto;
   margin-bottom:-40px;

@@ -8,6 +8,9 @@
   <div class="page-width">
 {%- endunless -%}
   <div class="custom-content">
+    {% if section.settings.main-title != blank %}
+    <div class="h1 text-center">{{section.settings.main-title}}</div>
+    {% endif %}
   {%- for block in section.blocks -%}
     {%- liquid
       case block.settings.width
@@ -111,6 +114,11 @@
         "type": "checkbox",
         "id": "alt",
         "label": "Use alternate section color"
+      },
+      {
+        "type": "text",
+        "id": "main-title",
+        "label": "Main title"
       }
     ],
     "blocks": [

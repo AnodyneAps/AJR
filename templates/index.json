@@ -78,12 +78,20 @@
     "1645620465336338d6": {
       "type": "testimonials",
       "blocks": {
-        "63789dc5-37a3-471c-9f6a-0dd71dd44284": {
+        "3d4124d3-4dd2-4693-a0a8-645a1d2c4598": {
           "type": "testimonial",
           "settings": {
-            "testimonial": "<p><em>I have started using AJR underwear for matches, in fact they are so comfortable that I also use them for everyday use. I'm a goalkeeper when I jump and move a lot from side to side it just feels completely unique to wear some underpants, which just fits me well and I can definitely recommend you AJR underwear.<\/em><\/p>",
-            "image": "shopify:\/\/shop_images\/595B072E-DA4C-4E9D-AB37-ED25AB7EEC75.jpg",
-            "author": "Mande Sayouba, OB - Superliga - Ivory Coast National Team"
+            "testimonial": "<p>Arturo Erasmo Vidal Pardo (commonly known as Arturo Vidal) is a Chilean footballer who from 2020 will play as a midfielder for Italian Inter Milan. He has played for FC Barcelona from 2018 to 2020, where he joined from the German big club, FC Bayern Munich.<\/p>",
+            "image": "shopify:\/\/shop_images\/image00002.jpg",
+            "author": "Arturo Vidal, Inter Milan - Seria A"
+          }
+        },
+        "34b24e94-20b0-4a99-8d46-51f97d55284d": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>My name is Enock Poulsen I’m a professional boxer. I love wearing the AJR underwear because they are great to wear during training and combat. The comfort is super good, especially when I move around it feels good and flexible to wear compared to other underwear.<\/p>",
+            "image": "shopify:\/\/shop_images\/image00001.jpg",
+            "author": "Enock Poulsen, Professional boxer (European Champion 2022)"
           }
         },
         "164562046565c88346-0": {
@@ -94,12 +102,12 @@
             "author": "Nadia Nadim, Danish women’s national team"
           }
         },
-        "164562046565c88346-1": {
+        "63789dc5-37a3-471c-9f6a-0dd71dd44284": {
           "type": "testimonial",
           "settings": {
-            "testimonial": "<p><em>When I stand in front of world stars and have to perform at the highest level, it's good to wear some underwear that do not bother me while I’m playing. <\/em><\/p>",
-            "image": "shopify:\/\/shop_images\/997F01D1-9DE0-4A2B-890B-DA58870441B8.jpg",
-            "author": "Nikolai Baden, Vitesse - latest a Juventus spiller"
+            "testimonial": "<p><em>I have started using AJR underwear for matches, in fact they are so comfortable that I also use them for everyday use. I'm a goalkeeper when I jump and move a lot from side to side it just feels completely unique to wear some underpants, which just fits me well and I can definitely recommend you AJR underwear.<\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/595B072E-DA4C-4E9D-AB37-ED25AB7EEC75.jpg",
+            "author": "Mande Sayouba, OB - Superliga - Ivory Coast National Team"
           }
         },
         "67df9a08-5810-409e-9860-de67de36d468": {
@@ -157,22 +165,33 @@
             "image": "shopify:\/\/shop_images\/8ED38D8F-DA08-4E05-8CD6-79D5250FCB29.jpg",
             "author": "Mikael Anderson, AGF - Iceland National Team"
           }
+        },
+        "164562046565c88346-1": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p><em>When I stand in front of world stars and have to perform at the highest level, it's good to wear some underwear that do not bother me while I’m playing. <\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/997F01D1-9DE0-4A2B-890B-DA58870441B8.jpg",
+            "author": "Nikolai Baden, Vitesse - latest a Juventus spiller"
+          }
         }
       },
       "block_order": [
-        "63789dc5-37a3-471c-9f6a-0dd71dd44284",
+        "3d4124d3-4dd2-4693-a0a8-645a1d2c4598",
+        "34b24e94-20b0-4a99-8d46-51f97d55284d",
         "164562046565c88346-0",
-        "164562046565c88346-1",
+        "63789dc5-37a3-471c-9f6a-0dd71dd44284",
         "67df9a08-5810-409e-9860-de67de36d468",
         "9f0d4ca7-5ff8-48fb-b038-ea1ea5513490",
         "e94ca362-4da1-4a74-af40-a0e88570e80c",
         "553c3f6e-99d2-4601-8357-6dbb85e00c2a",
         "45d24a2d-a9e3-4cf0-beed-92d6ef49326e",
         "73bd7e75-dae1-4ab1-a0cc-2c285798ca97",
-        "04db0c14-9448-47ea-a69e-e3e7035ada68"
+        "04db0c14-9448-47ea-a69e-e3e7035ada68",
+        "164562046565c88346-1"
       ],
       "settings": {
-        "title": "Testimonials",
+        "title": "Athletes prefer AJR Underwear",
+        "subtitle": "<p>Top professional athletes around the world wear the AJR underwear to achieve their maximum performance getting an edge over their rivals. World-class soccer players like Arturo Vidal and Nadia Nadim wear the AJR underwear at high-level competitions such as Champions Leagues and National-team games.<\/p><p><\/p>",
         "align_text": "center",
         "round_images": false,
         "square_images": true,
