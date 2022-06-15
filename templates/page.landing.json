@@ -11,9 +11,9 @@
         "slideshow-0": {
           "type": "image",
           "settings": {
-            "title": "peak of performance",
+            "title": "For everyday comfort",
             "title_size": 80,
-            "subheading": "AJRcollection® was founded in early 2018 by Trinity Sports Management., Ltd. in Dubai, United Arab Emirates.",
+            "subheading": "The only pair of underwear you will ever want to wear again. Guaranteed!",
             "link": "",
             "link_text": "",
             "color_accent": "rgba(0,0,0,0)",
@@ -39,10 +39,10 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/ajrtablebox_dfd3477b-d9c9-4885-a4af-78e3064130cd.png",
         "image_width": 700,
-        "subtitle": "AJR collection specials",
-        "title": "Image with text",
-        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.  <\/p>",
-        "button_label": "Shop now",
+        "subtitle": "",
+        "title": "Not conviced?",
+        "text": "<p>We are very convinced, that you will love our AJR-underwear. Are you convinced? If not, then get a test pair now for <strong>79 kr. including delivery<\/strong>. It has never been cheaper!<\/p>",
+        "button_label": "Get a pair for only 79 kr. now!",
         "button_link": "shopify:\/\/products\/ajr-3-pack-box-black-white",
         "button_style": "primary",
         "align_text": "center",
@@ -56,7 +56,7 @@
         "1655204133f68607ee-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ajrdiagram_19fd86aa-752d-4bc2-a085-60174affae5a.png",
+            "image": "shopify:\/\/shop_images\/ajrdiagram2.png",
             "link": "shopify:\/\/products\/ajr-3-pack-box-gray",
             "width": "100%",
             "alignment": "center"
@@ -70,23 +70,115 @@
         "full_width": true,
         "space_around": false,
         "alt": true,
-        "main-title": "Why ajr underwear?"
+        "main-title": "Why choose ajr underwear?"
       }
     },
     "16552124988aef488f": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Billede13.jpg",
-        "image_width": 420,
-        "subtitle": "AJR collection presents",
-        "title": "People Using it already",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "Shop now",
+        "image": "shopify:\/\/shop_images\/AJR_logo_dark.png",
+        "image_width": 380,
+        "subtitle": "",
+        "title": "Athletes use it already",
+        "text": "<p>Top professional athletes around the world wear the AJR underwear to achieve their maximum performance getting an edge over their rivals.<\/p>",
+        "button_label": "Get a pair for only 79 kr. now!",
         "button_link": "shopify:\/\/products\/ajr-3-pack-box-black",
         "button_style": "primary",
         "align_text": "center",
-        "layout": "left",
+        "layout": "right",
         "alt": false
+      }
+    },
+    "16552845119f622ada": {
+      "type": "testimonials",
+      "blocks": {
+        "165528451115c30e82-1": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p><em>When I stand in front of world stars and have to perform at the highest level, it's good to wear some underwear that do not bother me while I’m playing. <\/em><\/p>",
+            "image": "shopify:\/\/shop_images\/997F01D1-9DE0-4A2B-890B-DA58870441B8.jpg",
+            "author": "Nikolai Baden, Vitesse - latest a Juventus spiller"
+          }
+        },
+        "165528451115c30e82-0": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Arturo Erasmo Vidal Pardo (commonly known as Arturo Vidal) is a Chilean footballer who from 2020 will play as a midfielder for Italian Inter Milan. He has played for FC Barcelona from 2018 to 2020, where he joined from the German big club, FC Bayern Munich.<\/p>",
+            "image": "shopify:\/\/shop_images\/image00002.jpg",
+            "author": "Arturo Vidal, Inter Milan - Seria A"
+          }
+        },
+        "03e28f4d-0456-42ff-a78b-4a3f88ea0094": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>My name is Enock Poulsen I’m a professional boxer. I love wearing the AJR underwear because they are great to wear during training and combat. The comfort is super good, especially when I move around it feels good and flexible to wear compared to other underwear.<\/p>",
+            "image": "shopify:\/\/shop_images\/image00001.jpg",
+            "author": "Enock Poulsen, Professional boxer (European Champion 2022)"
+          }
+        }
+      },
+      "block_order": [
+        "165528451115c30e82-1",
+        "165528451115c30e82-0",
+        "03e28f4d-0456-42ff-a78b-4a3f88ea0094"
+      ],
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "align_text": "center",
+        "round_images": false,
+        "square_images": true,
+        "alt": false
+      }
+    },
+    "16552853311791ac1e": {
+      "type": "featured-services",
+      "blocks": {
+        "1655285331d1a8c2c9-0": {
+          "type": "service",
+          "settings": {
+            "title": "No rolling up issues",
+            "description": "The unique combination of fabric and design makes the underwear stay in place with every movement.",
+            "icon": "shopify:\/\/shop_images\/stof-design.png",
+            "uspLinkUrl": ""
+          }
+        },
+        "1655285331d1a8c2c9-1": {
+          "type": "service",
+          "settings": {
+            "title": "Comfortable on the skin",
+            "description": "Made of 94% cotton stretch and 6% spandex, giving you a soft and comfortable feel all day.",
+            "icon": "shopify:\/\/shop_images\/cotton.png",
+            "uspLinkUrl": ""
+          }
+        },
+        "a34d16fd-99d9-41e8-bfdb-c245035fbb05": {
+          "type": "service",
+          "settings": {
+            "title": "Unique flexible fit",
+            "description": "Stretchy and flexible fit with a soft elastic waistband for comfort all day.",
+            "icon": "shopify:\/\/shop_images\/Unique-flex.png",
+            "uspLinkUrl": ""
+          }
+        },
+        "c13dae76-0101-4616-9102-0230402cfff1": {
+          "type": "service",
+          "settings": {
+            "title": "Perfect fit for sports",
+            "description": "Designed for sports and everyday comfort. The design and combination of fabrics enables unlimited performance.",
+            "icon": "shopify:\/\/shop_images\/perfect-sport.png",
+            "uspLinkUrl": ""
+          }
+        }
+      },
+      "block_order": [
+        "1655285331d1a8c2c9-0",
+        "1655285331d1a8c2c9-1",
+        "a34d16fd-99d9-41e8-bfdb-c245035fbb05",
+        "c13dae76-0101-4616-9102-0230402cfff1"
+      ],
+      "settings": {
+        "title": ""
       }
     },
     "featured-collection": {
@@ -106,6 +198,8 @@
     "1655203436b2f63fc3",
     "16552041332715e691",
     "16552124988aef488f",
+    "16552845119f622ada",
+    "16552853311791ac1e",
     "featured-collection"
   ]
 }

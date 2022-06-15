@@ -18,8 +18,8 @@
         "sales_point": {
           "type": "sales_point",
           "settings": {
-            "icon": "globe",
-            "text": "Free worldwide shipping"
+            "icon": "checkmark",
+            "text": "Always free shipping"
           }
         },
         "inventory_status": {
@@ -272,6 +272,7 @@
       ],
       "settings": {
         "title": "Testimonials",
+        "subtitle": "<p>Testimonials subtitle<\/p>",
         "align_text": "center",
         "round_images": true,
         "square_images": false,

@@ -103,7 +103,7 @@
           "menu": "information",
           "menu_2": "ajrcollection-footer",
           "contact": "<ul class=\"no-bullets inline-list site-footer__linklist\">\n<li><a href=\"mailto:info@ajrcollection.com\" target=\"_blank\">info@ajrcollection.com<\/a><\/li>\n<\/ul>",
-          "show_payment_icons": true,
+          "show_payment_icons": false,
           "show_copyright": true,
           "copyright_text": ""
         }

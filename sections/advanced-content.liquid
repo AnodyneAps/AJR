@@ -9,7 +9,7 @@
 {%- endunless -%}
   <div class="custom-content">
     {% if section.settings.main-title != blank %}
-    <div class="h1 text-center">{{section.settings.main-title}}</div>
+    <div class="h1 ajr-title text-center">{{section.settings.main-title}}</div>
     {% endif %}
   {%- for block in section.blocks -%}
     {%- liquid
@@ -47,7 +47,7 @@
                 <a href="{{ block.settings.link }}">
               {%- endif -%}
               {%- if block.settings.image != blank -%}
-                <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+                <div class="image-wrap desktop-screen" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
                   {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                   <img class="lazyload"
                       data-src="{{ img_url }}"
@@ -64,9 +64,34 @@
                     {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
                   </div>
               {%- endif -%}
+              {% if block.settings.image_mobile !=blank %}
+              <div class="image-wrap mobile-screen" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image_mobile.aspect_ratio }}%;">
+                {%- assign img_url = block.settings.image_mobile | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                <img class="lazyload"
+                    data-src="{{ img_url }}"
+                    data-widths="[360, 540, 750, 900, 1080, 1600]"
+                    data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                    data-sizes="auto"
+                    alt="{{ block.settings.image_mobile.alt }}">
+                <noscript>
+                  <img class="lazyloaded" src="{{ block.settings.image | img_url: '400x' }}" alt="{{ block.settings.image.alt }}">
+                </noscript>
+              </div>
+              {%- else -%}
+                <div class="image-wrap">
+                  {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                </div>
+              {% endif %}
               {%- if block.settings.link != blank -%}
                 </a>
               {%- endif -%}
+              {%- if block.settings.button_label != blank -%}
+              <div class="appear-delay{% cycle '','-1','-2','-3','-4' %} text-center">
+                <a href="{{ block.settings.button_link }}" class="btn{% if block.settings.button_style == 'secondary' %} btn--tertiary{% endif %}">
+                  {{ block.settings.button_label }}
+                </a>
+              </div>
+            {%- endif -%}
             </div>
         {%- endcase -%}
       </div>
@@ -235,6 +260,11 @@
             ]
           },
           {
+            "type": "image_picker",
+            "id": "image_mobile",
+            "label": "Image Mobile"
+          },
+          {
             "type": "select",
             "id": "alignment",
             "label": "Vertical alignment",
@@ -252,6 +282,32 @@
               {
                 "value": "bottom-middle",
                 "label": "Bottom"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button label"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button link"
+          },
+          {
+            "type": "select",
+            "id": "button_style",
+            "label": "Button style",
+            "default": "primary",
+            "options": [
+              {
+                "value": "primary",
+                "label": "Primary"
+              },
+              {
+                "value": "secondary",
+                "label": "Secondary"
               }
             ]
           }

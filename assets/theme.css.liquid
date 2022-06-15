@@ -2196,9 +2196,20 @@ img[data-sizes=auto]{
   animation:placeholder-shimmer 1.3s linear 2s infinite;
   background-size:400% 100%;
   background-image: none;
-  padding-right: 20px;
 }
-
+@media only screen and (max-width:768px){
+  .image-wrap.desktop-screen{
+    display: none !important;
+  }
+  .ajr-title{
+    padding-left:25px;
+  }
+}
+@media only screen and (min-width:769px){
+  .image-wrap.mobile-screen{
+    display: none !important;
+  }
+}
 .image-wrap.loaded{
     animation:none;
   }
