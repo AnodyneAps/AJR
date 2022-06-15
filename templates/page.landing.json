@@ -11,77 +11,101 @@
         "slideshow-0": {
           "type": "image",
           "settings": {
-            "title": "About us",
-            "link_text": ""
+            "title": "peak of performance",
+            "title_size": 80,
+            "subheading": "AJRcollection® was founded in early 2018 by Trinity Sports Management., Ltd. in Dubai, United Arab Emirates.",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/image00029.jpg",
+            "focal_point": "center center"
           }
         }
       },
       "block_order": [
         "slideshow-0"
       ],
-      "settings": {}
+      "settings": {
+        "style": "arrows",
+        "desktop_size": -50,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
     },
-    "rich-text": {
-      "type": "rich-text",
+    "1655203436b2f63fc3": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ajrtablebox_dfd3477b-d9c9-4885-a4af-78e3064130cd.png",
+        "image_width": 700,
+        "subtitle": "AJR collection specials",
+        "title": "Image with text",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.  <\/p>",
+        "button_label": "Shop now",
+        "button_link": "shopify:\/\/products\/ajr-3-pack-box-black-white",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "alt": false
+      }
+    },
+    "16552041332715e691": {
+      "type": "advanced-content",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {}
-        },
-        "text": {
-          "type": "text",
-          "settings": {}
+        "1655204133f68607ee-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ajrdiagram_19fd86aa-752d-4bc2-a085-60174affae5a.png",
+            "link": "shopify:\/\/products\/ajr-3-pack-box-gray",
+            "width": "100%",
+            "alignment": "center"
+          }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "1655204133f68607ee-0"
       ],
-      "settings": {}
+      "settings": {
+        "full_width": true,
+        "space_around": false,
+        "alt": true,
+        "main-title": "Why ajr underwear?"
+      }
     },
-    "map": {
-      "type": "map",
-      "settings": {}
-    },
-    "text-columns": {
-      "type": "text-columns",
-      "blocks": {
-        "column1": {
-          "type": "text_block",
-          "settings": {}
-        },
-        "column2": {
-          "type": "text_block",
-          "settings": {}
-        },
-        "column3": {
-          "type": "text_block",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {}
+    "16552124988aef488f": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Billede13.jpg",
+        "image_width": 420,
+        "subtitle": "AJR collection presents",
+        "title": "People Using it already",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "Shop now",
+        "button_link": "shopify:\/\/products\/ajr-3-pack-box-black",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "left",
+        "alt": false
+      }
     },
     "featured-collection": {
       "type": "featured-collection-slider",
-      "settings": {}
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {}
+      "settings": {
+        "title": "Featured collection",
+        "description": "",
+        "home_featured_products": "all",
+        "per_row": "small",
+        "alt": false
+      }
     }
   },
   "order": [
     "main",
     "slideshow",
-    "rich-text",
-    "text-columns",
-    "map",
-    "featured-collection",
-    "form"
+    "1655203436b2f63fc3",
+    "16552041332715e691",
+    "16552124988aef488f",
+    "featured-collection"
   ]
 }
