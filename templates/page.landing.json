@@ -37,7 +37,7 @@
     "1655203436b2f63fc3": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/ajrtablebox_dfd3477b-d9c9-4885-a4af-78e3064130cd.png",
+        "image": "shopify:\/\/shop_images\/tablebox3.png",
         "image_width": 700,
         "subtitle": "",
         "title": "Not conviced?",
@@ -56,10 +56,14 @@
         "1655204133f68607ee-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ajrdiagram2.png",
+            "image": "shopify:\/\/shop_images\/ajrdiagram3.png",
             "link": "shopify:\/\/products\/ajr-3-pack-box-gray",
             "width": "100%",
-            "alignment": "center"
+            "image_mobile": "shopify:\/\/shop_images\/ajrdiagram-mobile.png",
+            "alignment": "center",
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/products\/ajr-3-pack-box-black",
+            "button_style": "primary"
           }
         }
       },
@@ -71,22 +75,6 @@
         "space_around": false,
         "alt": true,
         "main-title": "Why choose ajr underwear?"
-      }
-    },
-    "16552124988aef488f": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/AJR_logo_dark.png",
-        "image_width": 380,
-        "subtitle": "",
-        "title": "Athletes use it already",
-        "text": "<p>Top professional athletes around the world wear the AJR underwear to achieve their maximum performance getting an edge over their rivals.<\/p>",
-        "button_label": "Get a pair for only 79 kr. now!",
-        "button_link": "shopify:\/\/products\/ajr-3-pack-box-black",
-        "button_style": "primary",
-        "align_text": "center",
-        "layout": "right",
-        "alt": false
       }
     },
     "16552845119f622ada": {
@@ -190,6 +178,28 @@
         "per_row": "small",
         "alt": false
       }
+    },
+    "165529959990dfb3d1": {
+      "type": "advanced-content",
+      "blocks": {
+        "1655299599e2b9294c-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 class=\"h1 text-center\">Athlets use it already<\/h2><p class=\"text-center\">Top professional athletes around the world wear the AJR underwear to achieve their maximum performance getting an edge over their rivals.<\/p>",
+            "width": "75%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1655299599e2b9294c-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "alt": false,
+        "main-title": ""
+      }
     }
   },
   "order": [
@@ -197,9 +207,9 @@
     "slideshow",
     "1655203436b2f63fc3",
     "16552041332715e691",
-    "16552124988aef488f",
     "16552845119f622ada",
     "16552853311791ac1e",
-    "featured-collection"
+    "featured-collection",
+    "165529959990dfb3d1"
   ]
 }

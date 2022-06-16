@@ -2198,15 +2198,12 @@ img[data-sizes=auto]{
   background-image: none;
 }
 @media only screen and (max-width:768px){
-  .image-wrap.desktop-screen{
+  .image-wrap.desktop-screen, .feature-row__item .desktop-screen {
     display: none !important;
-  }
-  .ajr-title{
-    padding-left:25px;
   }
 }
 @media only screen and (min-width:769px){
-  .image-wrap.mobile-screen{
+  .image-wrap.mobile-screen, .feature-row__item .mobile-screen{
     display: none !important;
   }
 }
@@ -5878,6 +5875,24 @@ html.pswp-open-in-ios,html.pswp-open-in-ios body{
   justify-content:space-between;
   align-items:center
 }
+.feature-row .discount__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature-row .discount__container .h1.discount__text{
+  background: var(--colorCartDot);
+  color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.3222rem;
+  padding: 1.222rem;
+  letter-spacing: -1px;
+  display: grid;
+  place-items: center;
+}
 
 @media only screen and (min-width:1550px){
 
@@ -6010,9 +6025,9 @@ html.pswp-open-in-ios,html.pswp-open-in-ios body{
 
 @media only screen and (max-width:768px){
 
-.feature-row__image{
-    order:1
-}
+    .feature-row__image{
+        order:1
+    }
   }
 
 .index-section--alt{
@@ -6022,6 +6037,18 @@ html.pswp-open-in-ios,html.pswp-open-in-ios body{
   color:var(--colorAltText);
 }
 
+.inner-contrast{
+  background-color:{{ settings.color_alt_bg | default: "#f4f4f4" }};
+  background-color:var(--colorAlt);
+  color:{{ settings.color_alt_text | default: "#000" }};
+  color:var(--colorAltText);
+}
+@media only screen and (max-width:768px){
+
+  .inner-contrast{
+     padding-bottom: 30px;
+  }
+}
 .index-section--alt a:not(.btn){
   color:{{ settings.color_alt_text | default: "#000" }};
   color:var(--colorAltText)
@@ -9562,6 +9589,9 @@ select .variant-input{
   margin-bottom:-40px;
   margin-left:-40px
 }
+.custom-content.has_only_image {
+  margin: 80px 0 50px 0;
+}
 
 @media only screen and (max-width:768px){
 
@@ -9583,6 +9613,7 @@ select .variant-input{
 .custom__item{
     flex:0 0 auto;
     padding-left:30px;
+    padding-right: 33px;
     margin-bottom:30px
 }
 
@@ -9605,7 +9636,9 @@ select .variant-input{
   max-width:100%;
   width:100%;
 }
-
+.custom__item-inner .html_btn_container{
+  margin-top: 1.6rem;
+}
 .custom__item-inner--html,.custom__item-inner--video{
   display:block;
 }

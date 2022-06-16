@@ -1,23 +1,11 @@
 
-{%- comment -%}
-    {%- liquid
-      assign overlap_images = true
-      if section.settings.image != blank and section.settings.image2 == blank
-        assign overlap_images = false
-      endif
-    -%}
-
-  add this class on feature-row__item to have two overlapping images
-  {% if overlap_images %} feature-row__item--overlap-images{% endif %}
-{%- endcomment -%}
-
 <div class="index-section{% if section.settings.alt %} index-section--alt{% endif %}">
 
   <div class="page-width feature-row-wrapper">
     {%- capture image_layout -%}
       <div class="feature-row__item" style="max-width: {{ section.settings.image_width }}px" data-aos>
           {%- if section.settings.image != blank -%}
-            <div class="desktop-screen">
+            <div>
               {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
                 <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
                   {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
@@ -27,21 +15,6 @@
                     data-aspectratio="{{ section.settings.image.aspect_ratio }}"
                     data-sizes="auto"
                     alt="{{ section.settings.image.alt }}">
-                </div>
-              {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
-            </div>
-          {%- endif -%}
-          {%- if section.settings.image2 != blank -%}
-            <div class="mobile-screen">
-              {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
-                <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image2.aspect_ratio }}%;">
-                  {%- assign img_url = section.settings.image2 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                  <img class="feature-row__image lazyload"
-                    data-src="{{ img_url }}"
-                    data-widths="[180, 360, 540, 750, 900, 1080]"
-                    data-aspectratio="{{ section.settings.image2.aspect_ratio }}"
-                    data-sizes="auto"
-                    alt="{{ section.settings.image2.alt }}">
                 </div>
               {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
             </div>
@@ -61,12 +34,17 @@
       </div>
     {%- endcapture -%}
 
-    <div class="feature-row">
+    <div class="feature-row {% if section.settings.alt_inner %} inner-contrast{% endif %}">
       {%- if section.settings.layout == 'left' -%}
         {{ image_layout }}
       {%- endif -%}
 
       <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }} text-{{ section.settings.align_text }}" data-aos>
+				{% if section.settings.discount__text !=blank %}
+							<div class="discount__container text-center">
+								<span class="h1 discount__text">{{section.settings.discount__text}}</span>
+							</div>
+			{% endif %}
         {%- if section.settings.subtitle != blank -%}
           <div class="subheading appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.subtitle }}</div>
         {%- endif -%}
@@ -95,17 +73,12 @@
 
 {% schema %}
   {
-    "name": "Image with text",
+    "name": "Promos",
     "settings": [
       {
         "type": "image_picker",
         "id": "image",
         "label": "Image"
-      },
-      {
-        "type": "image_picker",
-        "id": "image2",
-        "label": "Image 2"
       },
       {
         "type": "range",
@@ -126,13 +99,19 @@
         "type": "text",
         "id": "title",
         "label": "Heading",
-        "default": "Image with text"
+        "default": "Promo for discounts"
       },
       {
         "type": "richtext",
         "id": "text",
         "label": "Text",
         "default": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>"
+      },
+			{
+        "type": "text",
+        "id": "discount__text",
+        "label": "Add discount text or porcentage",
+        "default": "50% Off"
       },
       {
         "type": "text",
@@ -196,6 +175,11 @@
           }
         ]
       },
+			{
+        "type": "checkbox",
+        "id": "alt_inner",
+        "label": "Use alternate for inner container color"
+      },
       {
         "type": "checkbox",
         "id": "alt",
@@ -204,7 +188,7 @@
     ],
     "presets": [
       {
-        "name": "Image with text"
+        "name": "Promos"
       }
     ]
   }
