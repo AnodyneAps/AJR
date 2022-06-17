@@ -15,6 +15,24 @@
         "mobile_height": "100vh"
       }
     },
+    "1655381122386e7e76": {
+      "type": "promo",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ajrpromo-contrast2.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Ever tried them?",
+        "text": "<p>The only pair of underwear you will ever want to wear again! Get a test pair for<strong> <\/strong>only<strong> 79 kr. including delivery<\/strong>. It has never been cheaper!<\/p>",
+        "discount__text": "Get a test pair",
+        "button_label": "Get a test pair now - only 79 kr.!",
+        "button_link": "shopify:\/\/pages\/ajr-test-pair",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "left",
+        "alt_inner": true,
+        "alt": false
+      }
+    },
     "featured-services": {
       "type": "featured-services",
       "blocks": {
@@ -65,10 +83,51 @@
         "title": ""
       }
     },
+    "16553702220e1aaad3": {
+      "type": "advanced-content",
+      "disabled": true,
+      "blocks": {
+        "165537022283b21e77-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ajrdiagram3.png",
+            "link": "",
+            "width": "100%",
+            "image_mobile": "shopify:\/\/shop_images\/ajrdiagram-mobile.png",
+            "alignment": "center",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "165537022283b21e77-1": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "button_label_html": "",
+            "button_link_html": "",
+            "button_style_html": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "165537022283b21e77-0",
+        "165537022283b21e77-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "alt": false,
+        "main-title": ""
+      }
+    },
     "featured-collection-slider": {
       "type": "featured-collection-slider",
       "settings": {
-        "title": "Products",
+        "title": "For everyday comfort!",
         "description": "",
         "home_featured_products": "all",
         "per_row": "medium",
@@ -171,7 +230,7 @@
           "settings": {
             "testimonial": "<p>When I stand in front of world stars and have to perform at the highest level, it's good to wear some underwear that do not bother me while I’m playing. <\/p>",
             "image": "shopify:\/\/shop_images\/997F01D1-9DE0-4A2B-890B-DA58870441B8.jpg",
-            "author": "Nikolai Baden, Vitesse - latest a Juventus spiller"
+            "author": "Nikolai Baden, Vitesse - latest a Juventus player"
           }
         }
       },
@@ -442,7 +501,9 @@
   },
   "order": [
     "hero-video",
+    "1655381122386e7e76",
     "featured-services",
+    "16553702220e1aaad3",
     "featured-collection-slider",
     "1645620465336338d6",
     "rich-text",

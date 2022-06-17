@@ -34,22 +34,6 @@
         "autoplay_speed": 7
       }
     },
-    "1655203436b2f63fc3": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/tablebox3.png",
-        "image_width": 700,
-        "subtitle": "",
-        "title": "Not conviced?",
-        "text": "<p>We are very convinced, that you will love our AJR-underwear. Are you convinced? If not, then get a test pair now for <strong>79 kr. including delivery<\/strong>. It has never been cheaper!<\/p>",
-        "button_label": "Get a pair for only 79 kr. now!",
-        "button_link": "shopify:\/\/products\/ajr-3-pack-box-black-white",
-        "button_style": "primary",
-        "align_text": "center",
-        "layout": "right",
-        "alt": false
-      }
-    },
     "16552041332715e691": {
       "type": "advanced-content",
       "blocks": {
@@ -61,8 +45,8 @@
             "width": "100%",
             "image_mobile": "shopify:\/\/shop_images\/ajrdiagram-mobile.png",
             "alignment": "center",
-            "button_label": "Shop now",
-            "button_link": "shopify:\/\/products\/ajr-3-pack-box-black",
+            "button_label": "Get a pair for only 79 kr. now!",
+            "button_link": "shopify:\/\/products\/ajr-underwear-test-pair",
             "button_style": "primary"
           }
         }
@@ -73,8 +57,50 @@
       "settings": {
         "full_width": true,
         "space_around": false,
-        "alt": true,
+        "alt": false,
         "main-title": "Why choose ajr underwear?"
+      }
+    },
+    "1655203436b2f63fc3": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tablebox4.png",
+        "image2": "shopify:\/\/shop_images\/tablebox-mobil.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Not conviced?",
+        "text": "<p>We are very convinced, that you will love our AJR-underwear. Are you convinced? If not, then get a test pair now for <strong>79 kr. including delivery<\/strong>. It has never been cheaper!<\/p>",
+        "button_label": "Get a pair for only 79 kr. now!",
+        "button_link": "shopify:\/\/products\/ajr-underwear-test-pair",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "alt": true
+      }
+    },
+    "165529959990dfb3d1": {
+      "type": "advanced-content",
+      "blocks": {
+        "1655299599e2b9294c-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 class=\"h1 text-center\">Athletes use it already<\/h2><p class=\"text-center\">Top professional athletes around the world wear the AJR underwear to achieve their maximum performance getting an edge over their rivals.<\/p>",
+            "width": "75%",
+            "alignment": "center",
+            "button_label_html": "Get a pair for only 79 kr. now!",
+            "button_link_html": "shopify:\/\/products\/ajr-underwear-test-pair",
+            "button_style_html": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "1655299599e2b9294c-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "alt": false,
+        "main-title": ""
       }
     },
     "16552845119f622ada": {
@@ -179,37 +205,35 @@
         "alt": false
       }
     },
-    "165529959990dfb3d1": {
-      "type": "advanced-content",
-      "blocks": {
-        "1655299599e2b9294c-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2 class=\"h1 text-center\">Athlets use it already<\/h2><p class=\"text-center\">Top professional athletes around the world wear the AJR underwear to achieve their maximum performance getting an edge over their rivals.<\/p>",
-            "width": "75%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1655299599e2b9294c-1"
-      ],
+    "165537058017c25150": {
+      "type": "promo",
+      "disabled": true,
       "settings": {
-        "full_width": false,
-        "space_around": true,
-        "alt": false,
-        "main-title": ""
+        "image": "shopify:\/\/shop_images\/ajrpromo-contrast2.png",
+        "image_width": 700,
+        "subtitle": "Ajr promotion",
+        "title": "Promo for discounts",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "discount__text": "get a test pair",
+        "button_label": "Shop now",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "left",
+        "alt_inner": true,
+        "alt": false
       }
     }
   },
   "order": [
     "main",
     "slideshow",
-    "1655203436b2f63fc3",
     "16552041332715e691",
+    "1655203436b2f63fc3",
+    "165529959990dfb3d1",
     "16552845119f622ada",
     "16552853311791ac1e",
     "featured-collection",
-    "165529959990dfb3d1"
+    "165537058017c25150"
   ]
 }

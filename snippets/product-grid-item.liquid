@@ -61,6 +61,9 @@
   data-product-grid
   data-id="{{ product.id }}">
   <div class="grid-product__content">
+      {%- for tag in product.tags -%}
+      <span class="collection__badge h1">{{ tag }}</span>
+      {%- endfor -%}
     {%- if has_custom_label -%}
       <div class="grid-product__tag grid-product__tag--custom">
         {{ custom_label }}
