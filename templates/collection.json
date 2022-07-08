@@ -30,11 +30,20 @@
         "product_grid"
       ],
       "settings": {}
+    },
+    "16564181068c00cf11": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
     }
   },
   "order": [
     "collection-header",
     "collection-filters",
-    "main-collection"
+    "main-collection",
+    "16564181068c00cf11"
   ]
 }

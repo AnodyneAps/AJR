@@ -254,8 +254,8 @@
           "40f1336f-9d48-4770-b1d2-c0dcf1860a76"
         ],
         "settings": {
-          "enable_home": true,
-          "enable_product": true,
+          "enable_home": false,
+          "enable_product": false,
           "enable_collection": false,
           "title": "On social",
           "description": "<p>Send us yours <a href=\"https:\/\/www.instagram.com\/ajrcollectionn\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/ajrcollectionn\/\">@ajrcollectionn<\/a><\/p>"
