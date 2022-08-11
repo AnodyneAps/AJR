@@ -3,7 +3,7 @@
     "accessibility": {
       "skip_to_content": "Spring til indhold",
       "close_modal": "Luk (ESC)",
-      "close": "Tæt",
+      "close": "Luk",
       "learn_more": "Lær mere",
       "loading": "Indlæser"
     },
@@ -23,8 +23,8 @@
       "login_form_password_label": "Adgangskode",
       "login_form_password_placeholder": "Dit kodeord",
       "login_form_submit": "Gå ind",
-      "signup_form_email_label": "E -mail",
-      "signup_form_success": "Vi sender dig en e -mail lige før vi åbner!",
+      "signup_form_email_label": "E-mail",
+      "signup_form_success": "Vi sender dig en e-mail, lige før vi åbner!",
       "admin_link_html": "Butiksejer? <a href=\"\/admin\" class=\"text-link\">Log ind her<\/a>",
       "password_link": "Adgangskode",
       "powered_by_shopify_html": "Denne butik vil blive drevet af {{ shopify }}"
@@ -41,9 +41,9 @@
       "pictured": "På billedet"
     },
     "newsletter_form": {
-      "newsletter_email": "Indtast din e -mail",
+      "newsletter_email": "Indtast din e-mail",
       "newsletter_confirmation": "Tak for at abonnere",
-      "submit": "Abonner"
+      "submit": "Abonnér"
     },
     "search": {
       "no_results_html": "Din søgning efter \"{{ terms }}\"gav ingen resultater.",
@@ -128,10 +128,10 @@
         "shipping_address_title": "Forsendelsesadresse",
         "delivery_option_title": "Leveringsmetode",
         "contact_method_title": "Kontakt information",
-        "email_label": "E -mail",
-        "email_placeholder": "E -mail",
-        "email_or_phone_label": "E -mail eller mobiltelefonnummer",
-        "email_or_phone_placeholder": "E -mail eller mobiltelefonnummer",
+        "email_label": "E-mail",
+        "email_placeholder": "E-mail",
+        "email_or_phone_label": "E-mail eller mobiltelefonnummer",
+        "email_or_phone_placeholder": "E-mail eller mobiltelefonnummer",
         "stored_addresses_label": "Gemte adresser",
         "new_address_label": "Brug en ny adresse",
         "first_name_label": "Fornavn",
@@ -177,7 +177,7 @@
         "civic_number_warning": "Tilføj et husnummer, hvis du har et"
       },
       "delivery_options": {
-        "free_total_label": "Ledig",
+        "free_total_label": "Gratis",
         "ship": "Skib",
         "shipping_address": "Forsendelsesadresse",
         "pick_up": "Saml op",
@@ -233,7 +233,7 @@
         "remove_discount_label": "Fjern rabat",
         "free_shipping_discount_label": "Gratis fragt",
         "applied_free_shipping_discount_label": "Anvendt",
-        "apply_discount_button_label": "ansøge",
+        "apply_discount_button_label": "Anvend",
         "applied_discount_message": "%{amount} Fra den samlede ordrepris",
         "discount_has_been_applied": "Rabat er blevet anvendt",
         "discount_has_been_removed": "Rabat er blevet fjernet",
@@ -263,7 +263,7 @@
         "total_label": "i alt",
         "total_outstanding_label": "Beløb at betale",
         "partial_total_label": "i alt",
-        "free_total_label": "Ledig",
+        "free_total_label": "Gratis",
         "paid_label": "Betalt",
         "payment_due_label": "Betalingsfrist",
         "vat_label_html": "Inklusive %{amount} i skatter",
@@ -274,7 +274,7 @@
         "description_label": "Beskrivelse",
         "price_label": "Pris",
         "quantity_label": "Antal",
-        "product_change_label": "Lave om",
+        "product_change_label": "Skift",
         "product_image_label": "Produktbillede",
         "scroll_order_summary": "Rul efter flere varer",
         "expand_order_summary": "Vis ordreoversigt",
@@ -318,7 +318,7 @@
         "no_pickup_location_notice": "Mindst et af dine produkter er ikke tilgængelig til afhentning",
         "no_rates_for_country_notice": "Ingen forsendelsesrater fundet for denne adresse.",
         "no_rates_contact_notice": "Kontakt os for mere information",
-        "free_rate_label": "Ledig",
+        "free_rate_label": "Gratis",
         "cheapest_rate_label": "Billigste",
         "please_enter_your_shipping_information_notice": "Indtast dine forsendelsesoplysninger.",
         "estimated_delivery_date": {
@@ -406,7 +406,7 @@
         "amount_left_to_pay_label": "Betalingsfrist:",
         "discount_button_action_label": "Anvend rabatkode",
         "gift_card_code_label": "Gavekortkode",
-        "apply_gift_card_button_label": "ansøge",
+        "apply_gift_card_button_label": "Anvend",
         "gift_card_balance_label": "Balance:",
         "supported_card_brands_more_label": "og mere…",
         "detected_card_brand": "Detekteret kortmærke: {Brand}",
@@ -444,7 +444,7 @@
         "card_start_placeholder": "Udgivelsesdato (MM \/ YY)",
         "card_issue_number_label": "Udstedelsesnummer",
         "card_issue_number_placeholder": "Udstedelsesnummer",
-        "card_change_label": "Lave om",
+        "card_change_label": "Skift",
         "card_update_label": "Opdateringskort",
         "ends_with_label": "slutter med %{last_digits}",
         "masked_digits_label": "•••• %{last_digits}",
@@ -457,7 +457,7 @@
         "different_billing_address_label": "Brug en anden faktureringsadresse",
         "billing_address_associated_with_mandate": "Brug adresse, der er knyttet til betalingsmetode",
         "billing_address_associated_with_mandate_info": "Hvis du ønsker at ændre din faktureringsadresse, skal du fjerne og indtaste dine kreditkortoplysninger igen",
-        "free_order_notice_html": "Din ordre er <strong>ledig<\/strong>. Ingen betaling er påkrævet.",
+        "free_order_notice_html": "Din ordre er <strong>gratis<\/strong>. Ingen betaling er påkrævet.",
         "express_checkout_free_order": "Du bliver ikke opkrævet for en gratis ordre",
         "order_covered_by_gift_cards_notice": {
           "one": "Din ordre er dækket af dit gavekort.",
@@ -522,7 +522,7 @@
         "express_payment_gateway_label": "Express",
         "manual_payment_gateway_label": "brugervejledning",
         "billing_address_title": "Betalingsadresse",
-        "free_label": "Ledig"
+        "free_label": "Gratis"
       },
       "field_errors": {
         "handle_phone_invalid": "Indtast et gyldigt telefonnummer",
@@ -872,7 +872,7 @@
           "shipping_address_title": "Send til",
           "shipping_method_title": "Metode",
           "payment_method_title": "Betaling",
-          "change_link_label": "Lave om",
+          "change_link_label": "Skift",
           "change_contact_method_link_label": "Skift kontaktoplysninger",
           "change_billing_address_link_label": "Skift faktureringsadresse",
           "change_shipping_address_link_label": "ændr forsendelses adresse",
@@ -1355,13 +1355,13 @@
       "title": "Vogn",
       "remove": "Fjerne",
       "delete_confirm": "Er du sikker på, at du vil fjerne denne vare?",
-      "note": "Bestil note:",
+      "note": "Kommentar til bestilling:",
       "note_placeholder": "Her kan du tilføje en note til din ordre ...",
       "subtotal": "Subtotal",
       "discounts": "Rabatter",
-      "shipping_at_checkout": "Forsendelse, skatter og rabatkoder beregnet ved kassen.",
+      "shipping_at_checkout": "Forsendelse, skatter og rabatkoder beregnes ved kassen.",
       "update": "Opdater indkøbsvogn",
-      "checkout": "Tjek ud",
+      "checkout": "Bestil",
       "empty": "Din vogn er i øjeblikket tom.",
       "continue_shopping": "Fortsætte med at handle",
       "continue_browsing_html": "Fortsæt med at gennemse <a href='{{ url }}'>her<\/a>.",
@@ -1404,7 +1404,7 @@
       "email": "E -mail",
       "phone": "Telefonnummer",
       "message": "Besked",
-      "send": "Sende",
+      "send": "Send",
       "post_success": "Tak for at kontakte os. Vi vender tilbage til dig så hurtigt som muligt."
     }
   },
@@ -1547,7 +1547,7 @@
       "sale_price": "Udsalgspris",
       "regular_price": "Normal pris",
       "from_text_html": "fra {{ price }}",
-      "related_products": "Du vil måske også syntes om",
+      "related_products": "Du vil måske også synes om",
       "collection_return": "Tilbage til {{ collection }}",
       "reviews": "Anmeldelser"
     },
@@ -1564,7 +1564,7 @@
       "add_to_cart": "Tilføj til kurv",
       "preorder": "Forudbestille",
       "include_taxes": "Kassen indeholder 3 x AJR underbukser",
-      "shipping_policy_html": "i den ovennævnte farve.",
+      "shipping_policy_html": "i den nævnte farve.",
       "will_not_ship_until": "Klar til at sende {{ date }}",
       "will_be_in_stock_after": "Tilbage på lager {{ date }}",
       "waiting_for_stock": "Inventory på vej",

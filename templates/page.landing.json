@@ -41,12 +41,12 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/ajrdiagram3.png",
-            "link": "shopify:\/\/products\/ajr-3-pack-box-gray",
+            "link": "shopify:\/\/collections\/all",
             "width": "100%",
             "image_mobile": "shopify:\/\/shop_images\/ajrdiagram-mobile.png",
             "alignment": "center",
-            "button_label": "Get a pair for only 79 kr. now!",
-            "button_link": "shopify:\/\/products\/ajr-underwear-test-pair",
+            "button_label": "Get yours now!",
+            "button_link": "shopify:\/\/collections\/all",
             "button_style": "primary"
           }
         }
@@ -69,9 +69,9 @@
         "image_width": 700,
         "subtitle": "",
         "title": "Not conviced?",
-        "text": "<p>We are very convinced, that you will love our AJR-underwear. Are you convinced? If not, then get a test pair now for <strong>79 kr. including delivery<\/strong>. It has never been cheaper!<\/p>",
-        "button_label": "Get a pair for only 79 kr. now!",
-        "button_link": "shopify:\/\/products\/ajr-underwear-test-pair",
+        "text": "<p>We are very convinced, that you will love our AJR-underwear. Are you convinced? If not, then get yours now! <strong>Always free delivery!<\/strong><\/p>",
+        "button_label": "Get your 3-pack now - only 399 kr.!",
+        "button_link": "shopify:\/\/collections\/all",
         "button_style": "primary",
         "align_text": "center",
         "layout": "right",
@@ -87,8 +87,8 @@
             "code": "<h2 class=\"h1 text-center\">Athletes use it already<\/h2><p class=\"text-center\">Top professional athletes around the world wear the AJR underwear to achieve their maximum performance getting an edge over their rivals.<\/p>",
             "width": "75%",
             "alignment": "center",
-            "button_label_html": "Get a pair for only 79 kr. now!",
-            "button_link_html": "shopify:\/\/products\/ajr-underwear-test-pair",
+            "button_label_html": "Get your 3-pack now!",
+            "button_link_html": "shopify:\/\/collections\/all",
             "button_style_html": "primary"
           }
         }

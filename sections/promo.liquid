@@ -4,17 +4,35 @@
   <div class="page-width feature-row-wrapper">
     {%- capture image_layout -%}
       <div class="feature-row__item" style="max-width: {{ section.settings.image_width }}px" data-aos>
-          {%- if section.settings.image != blank -%}
+          {%- if section.settings.image != blank and section.settings.image__dk != blank and section.settings.image__de != blank -%}
             <div>
               {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
                 <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
                   {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {%- assign img_urldk = section.settings.image__dk | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {%- assign img_urlde = section.settings.image__de | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {% if shop.locale == 'da' %}
                   <img class="feature-row__image lazyload"
-                    data-src="{{ img_url }}"
-                    data-widths="[180, 360, 540, 750, 900, 1080]"
-                    data-aspectratio="{{ section.settings.image.aspect_ratio }}"
-                    data-sizes="auto"
-                    alt="{{ section.settings.image.alt }}">
+                  data-src="{{ img_urldk }}"
+                  data-widths="[180, 360, 540, 750, 900, 1080]"
+                  data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+                  data-sizes="auto"
+                  alt="{{ section.settings.image.alt }}">
+                  {% elsif shop.locale == 'de' %}
+                  <img class="feature-row__image lazyload"
+                  data-src="{{ img_urlde }}"
+                  data-widths="[180, 360, 540, 750, 900, 1080]"
+                  data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+                  data-sizes="auto"
+                  alt="{{ section.settings.image.alt }}">
+                  {% else %}
+                  <img class="feature-row__image lazyload"
+                  data-src="{{ img_url }}"
+                  data-widths="[180, 360, 540, 750, 900, 1080]"
+                  data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+                  data-sizes="auto"
+                  alt="{{ section.settings.image.alt }}">
+                  {% endif %}
                 </div>
               {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
             </div>
@@ -79,6 +97,16 @@
         "type": "image_picker",
         "id": "image",
         "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image__dk",
+        "label": "Image DK"
+      },
+      {
+        "type": "image_picker",
+        "id": "image__de",
+        "label": "Image DE"
       },
       {
         "type": "range",

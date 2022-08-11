@@ -16,36 +16,72 @@
   <div class="page-width feature-row-wrapper">
     {%- capture image_layout -%}
       <div class="feature-row__item" style="max-width: {{ section.settings.image_width }}px" data-aos>
-          {%- if section.settings.image != blank -%}
-            <div class="desktop-screen">
-              {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
-                <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
-                  {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                  <img class="feature-row__image lazyload"
-                    data-src="{{ img_url }}"
-                    data-widths="[180, 360, 540, 750, 900, 1080]"
-                    data-aspectratio="{{ section.settings.image.aspect_ratio }}"
-                    data-sizes="auto"
-                    alt="{{ section.settings.image.alt }}">
-                </div>
-              {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
-            </div>
-          {%- endif -%}
-          {%- if section.settings.image2 != blank -%}
-            <div class="mobile-screen">
-              {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
-                <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image2.aspect_ratio }}%;">
-                  {%- assign img_url = section.settings.image2 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                  <img class="feature-row__image lazyload"
-                    data-src="{{ img_url }}"
-                    data-widths="[180, 360, 540, 750, 900, 1080]"
-                    data-aspectratio="{{ section.settings.image2.aspect_ratio }}"
-                    data-sizes="auto"
-                    alt="{{ section.settings.image2.alt }}">
-                </div>
-              {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
-            </div>
-          {%- endif -%}
+          {% if shop.locale == 'da' %}
+                  {%- if section.settings.image__dk != blank -%}
+                  <div class="desktop-screen">
+                    {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
+                      <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
+                        {%- assign img_url_dk = section.settings.image__dk | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                        <img class="feature-row__image lazyload"
+                          data-src="{{ img_url_dk }}"
+                          data-widths="[180, 360, 540, 750, 900, 1080]"
+                          data-aspectratio="{{ section.settings.image__dk.aspect_ratio }}"
+                          data-sizes="auto"
+                          alt="{{ section.settings.image__dk.alt }}">
+                      </div>
+                    {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
+                  </div>
+                {%- endif -%}
+          {% else %}
+                  {%- if section.settings.image != blank -%}
+                  <div class="desktop-screen">
+                    {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
+                      <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
+                        {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                        <img class="feature-row__image lazyload"
+                          data-src="{{ img_url }}"
+                          data-widths="[180, 360, 540, 750, 900, 1080]"
+                          data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+                          data-sizes="auto"
+                          alt="{{ section.settings.image.alt }}">
+                      </div>
+                    {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
+                  </div>
+                {%- endif -%}
+          {% endif %}
+          {% if shop.locale == 'da' %}
+                    {%- if section.settings.image2__dk != blank -%}
+                    <div class="mobile-screen">
+                      {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
+                        <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image2__dk.aspect_ratio }}%;">
+                          {%- assign img_urldkmobil = section.settings.image2__dk | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          <img class="feature-row__image lazyload"
+                            data-src="{{ img_urldkmobil }}"
+                            data-widths="[180, 360, 540, 750, 900, 1080]"
+                            data-aspectratio="{{ section.settings.image2__dk.aspect_ratio }}"
+                            data-sizes="auto"
+                            alt="{{ section.settings.image2__dk.alt }}">
+                        </div>
+                      {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
+                    </div>
+                  {%- endif -%}
+          {% else %}
+                  {%- if section.settings.image2 != blank -%}
+                  <div class="mobile-screen">
+                    {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
+                      <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image2.aspect_ratio }}%;">
+                        {%- assign img_url = section.settings.image2 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                        <img class="feature-row__image lazyload"
+                          data-src="{{ img_url }}"
+                          data-widths="[180, 360, 540, 750, 900, 1080]"
+                          data-aspectratio="{{ section.settings.image2.aspect_ratio }}"
+                          data-sizes="auto"
+                          alt="{{ section.settings.image2.alt }}">
+                      </div>
+                    {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
+                  </div>
+                {%- endif -%}
+          {% endif %}
           {%- if section.settings.image == blank and section.settings.image2 == blank -%}
             <div>
               <div class="image-wrap">
@@ -105,7 +141,17 @@
       {
         "type": "image_picker",
         "id": "image2",
-        "label": "Image 2"
+        "label": "Image mobile"
+      },
+      {
+        "type": "image_picker",
+        "id": "image__dk",
+        "label": "Image DK"
+      },
+      {
+        "type": "image_picker",
+        "id": "image2__dk",
+        "label": "Image mobile Dk"
       },
       {
         "type": "range",
