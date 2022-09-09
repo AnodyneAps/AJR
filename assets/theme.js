@@ -8315,3 +8315,5 @@ matchMedia(theme.config.mediaQuerySmall).addListener(function(mql) {
     theme.pageTransitions();
   });
 })();
+
+var checkExist = setInterval(function() { if (document.querySelector('#insta-feed h2')) { if (Shopify.locale === 'da') document.querySelector('#insta-feed h2').firstChild.nodeValue = 'Følg AJR på Instagram'; clearInterval(checkExist);}}, 100);

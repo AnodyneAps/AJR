@@ -42,8 +42,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ajrdiagram3.png",
             "link": "shopify:\/\/collections\/all",
+            "image__dk": "shopify:\/\/shop_images\/dk-diagram-desktop_2d0101fe-98e7-42ad-a151-6075eed1f84b.png",
+            "link__dk": "shopify:\/\/collections\/all",
+            "link__de": "",
             "width": "100%",
             "image_mobile": "shopify:\/\/shop_images\/ajrdiagram-mobile.png",
+            "image_mobile__dk": "shopify:\/\/shop_images\/dk-diagram-mobil.png",
             "alignment": "center",
             "button_label": "Get yours now!",
             "button_link": "shopify:\/\/collections\/all",
@@ -66,6 +70,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/tablebox4.png",
         "image2": "shopify:\/\/shop_images\/tablebox-mobil.png",
+        "image__dk": "shopify:\/\/shop_images\/dk-table-desktop.png",
+        "image2__dk": "shopify:\/\/shop_images\/dk-table-mobil.png",
         "image_width": 700,
         "subtitle": "",
         "title": "Not conviced?",
