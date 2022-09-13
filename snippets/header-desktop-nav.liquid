@@ -62,7 +62,7 @@
 <style>
   .site-nav__item .site-nav__has-language {
     padding:7.5px  5px;
-    color: transparent !important;
+    color: transparent;
 }
 .site-nav__item .site-nav__has-language.english::after{
   content:'';
@@ -77,7 +77,7 @@
   transform: translate(-50%,-50%);
 }
 .site-nav__item .site-nav__has-language.english.active__en::after{
-  box-shadow: 0 0 0 2px var(--colorCartDot);
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.5), 0 0 0 4px var(--colorCartDot);
 }
 .site-nav__item .site-nav__has-language.danish::after{
   content:'';
@@ -92,6 +92,6 @@
   transform: translate(-50%,-50%);
 }
 .site-nav__item .site-nav__has-language.danish.active__da::after{
-  box-shadow: 0 0 0 2px var(--colorCartDot);
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.5), 0 0 0 4px var(--colorCartDot);
 }
 </style>

@@ -107,7 +107,9 @@
               {%- endfor -%}
             </ul>
           {%- else -%}
-            <a href="{{ link.url }}" class="slide-nav__link">
+            <a href="{{ link.url }}" class="slide-nav__link 
+            {% if link.title contains 'En' %} site-nav__has-language english {% if shop.locale == 'en' %} active__{{shop.locale}} {% endif %}{% endif %} {% if link.title contains 'Da' %} site-nav__has-language danish {% endif %}{% if shop.locale == 'da' %} active__{{shop.locale}} {% endif %}
+            ">
               {{ link.title }}
             </a>
           {%- endif -%}
@@ -138,3 +140,39 @@
     </ul>
   </nav>
 </div>
+<style>
+  .slide-nav__item .site-nav__has-language {
+    padding:7.5px  5px;
+    color: transparent;
+}
+.slide-nav__item .site-nav__has-language.english::after{
+  content:'';
+  position: absolute;
+  top:50%;
+  left:50%;
+  background: url('https://cdn.shopify.com/s/files/1/0627/1234/8917/files/gb.svg?v=1662731142');
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: block;
+  transform: translate(-50%,-50%);
+}
+.slide-nav__item .site-nav__has-language.english.active__en::after{
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.5), 0 0 0 2px var(--colorCartDot);
+}
+.slide-nav__item .site-nav__has-language.danish::after{
+  content:'';
+  position: absolute;
+  top:50%;
+  left:50%;
+  background: url('https://cdn.shopify.com/s/files/1/0627/1234/8917/files/dk.svg?v=1662731143');
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: block;
+  transform: translate(-50%,-50%);
+}
+.slide-nav__item .site-nav__has-language.danish.active__da::after{
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.5), 0 0 0 2px var(--colorCartDot);
+}
+</style>
