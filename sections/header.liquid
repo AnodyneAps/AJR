@@ -103,6 +103,18 @@
     <header
       class="site-header{% if section.settings.logo_hide_mobile %}{% unless template_name == 'index' %} small--hide{% endunless %}{% endif %}"
       data-overlay="{{ overlay_header }}">
+      <!-- start of mobile nave for language  -->
+      <div class="site-header__mobile-nav">
+        <ul class="mobile-nav">
+          <li class="mobile-nav__item">
+                <a href="https://ajrcollection.com/da" class="mobile-nav__link mobile-nav__has-language danish {% if shop.locale == 'da' %} active__{{shop.locale}} {% endif %}"> Da</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a href="https://ajrcollection.com/" class="mobile-nav__link mobile-nav__has-language english {% if shop.locale == 'en' %} active__{{shop.locale}} {% endif %}">En</a>
+          </li>
+        </ul>
+        <!-- end of mobile nav for language  -->
+      </div>
       <div class="page-width">
         <div
           class="header-layout header-layout--{{ menu_alignment }}{% if mobile_logo_only %} header-layout--mobile-logo-only{% endif %}"
@@ -215,6 +227,66 @@
 {%- if section.settings.header_search_enable -%}
   {%- render 'search-modal' -%}
 {%- endif -%}
+
+<style>
+  .site-header__mobile-nav{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:0;
+    height: 30px;
+    display: block;
+  }
+  .site-header__mobile-nav .mobile-nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .mobile-nav__item .mobile-nav__has-language {
+    padding:0 12px;
+    color: transparent;
+    position: relative;
+}
+.mobile-nav__item .mobile-nav__has-language:hover {
+    color: transparent;
+}
+.mobile-nav__item .mobile-nav__has-language.english::after{
+  content:'';
+  position: absolute;
+  top:50%;
+  left:50%;
+  background: url('https://cdn.shopify.com/s/files/1/0627/1234/8917/files/gb.svg?v=1662731142');
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: block;
+  transform: translate(-50%,-50%);
+}
+.mobile-nav__item .mobile-nav__has-language.english.active__en::after{
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.5), 0 0 0 4px var(--colorCartDot);
+}
+.mobile-nav__item .mobile-nav__has-language.danish::after{
+  content:'';
+  position: absolute;
+  top:50%;
+  left:50%;
+  background: url('https://cdn.shopify.com/s/files/1/0627/1234/8917/files/dk.svg?v=1662731143');
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: block;
+  transform: translate(-50%,-50%);
+}
+.mobile-nav__item .mobile-nav__has-language.danish.active__da::after{
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.5), 0 0 0 4px var(--colorCartDot);
+}
+@media only screen and (min-width: 769px){
+  .site-header__mobile-nav{
+    display: none;
+  }
+}
+</style>
+
 
 {% schema %}
   {
