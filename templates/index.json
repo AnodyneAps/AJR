@@ -94,6 +94,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ajrdiagram3.png",
             "link": "",
+            "link__dk": "",
+            "link__de": "",
             "width": "100%",
             "image_mobile": "shopify:\/\/shop_images\/ajrdiagram-mobile.png",
             "alignment": "center",
@@ -138,6 +140,7 @@
     },
     "1645620465336338d6": {
       "type": "testimonials",
+      "disabled": true,
       "blocks": {
         "3d4124d3-4dd2-4693-a0a8-645a1d2c4598": {
           "type": "testimonial",
@@ -307,7 +310,8 @@
       "block_order": [
         "919490fe-61c9-420b-9037-904ac8e663df"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "hero-animated": {
       "type": "hero-animated",

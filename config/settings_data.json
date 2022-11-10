@@ -105,7 +105,7 @@
           "contact": "<ul class=\"no-bullets inline-list site-footer__linklist\">\n<li><a href=\"mailto:info@ajrcollection.com\" target=\"_blank\">info@ajrcollection.com<\/a><\/li>\n<\/ul>",
           "show_payment_icons": false,
           "show_copyright": true,
-          "copyright_text": ""
+          "copyright_text": "P.O. Pedersens Vej 9, 8200 Aarhus N, Denmark. CVR 42207551."
         }
       },
       "newsletter-popup": {
@@ -262,12 +262,15 @@
         }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "15323590465973626552": {
         "type": "shopify:\/\/apps\/translate-currency-langshop\/blocks\/langshop\/84899e01-2b29-42af-99d6-46d16daa2111",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       },
       "IIsujsv9HmyHRp3iBk": {
         "type": "shopify:\/\/apps\/drip-email-marketing\/blocks\/drip_shopify_snippet\/0c4de56d-b2fa-4621-acea-6293bc16aba8",
@@ -279,7 +282,8 @@
       "d97a2e7d-4e9b-4d94-820c-8169488cb69a": {
         "type": "shopify:\/\/apps\/instagram-feed-story-tiktok\/blocks\/social-widget\/508b8d5b-b176-4dc6-a0ba-2b222db6eb79",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       }
     }
   },
@@ -469,7 +473,8 @@
         },
         "password-header": {
           "type": "password-header",
-          "settings": {}
+          "settings": {
+          }
         },
         "product-recommendations": {
           "type": "product-recommendations",

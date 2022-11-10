@@ -98,7 +98,7 @@
 <!-- End of Sleeknote signup and lead generation tool - www.sleeknote.com -->
 
 <meta name="google-site-verification" content="3YhtahZZwQbwghTgQZJ2F-u9b1J99n6VbGeOgQqr8rY" />
-
+<meta name="ahrefs-site-verification" content="5227096f3d9ba2c323f8fa5f1aad7f8250dc1fe63ade5fbe4a56de59f5617e9a">
 </head>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}{% if settings.cart_type == 'sticky' and cart.item_count > 0 and template != 'cart' %} body--sticky-cart-open{% endif %}{% if cart.item_count > 0 %} cart-has-items{% endif %}" ontouchstart="return true;" data-transitions="{{settings.animate_page_transitions}}" data-animate_underlines="true" data-animate_images="{{settings.animate_images}}" data-button_style="{{settings.button_style}}" data-type_product_capitalize="{{settings.type_product_capitalize}}" data-type_header_capitalize="{{settings.type_header_capitalize}}" data-product_image_scatter="{{settings.product_image_scatter}}" data-button_type_style="{{settings.button_type_style}}">
@@ -173,6 +173,12 @@
     section 'newsletter-popup'
   -%}
 <script src='{{ 'ddshop-faq.js' | asset_url }}' defer='defer'></script>
-<script src='{{ 'ddshop-faq-lang-da.js' | asset_url }}' defer='defer'></script>
+{%- if request.locale.iso_code == 'de' -%}
+  <script src='{{ 'ddshop-faq-lang-de.js' | asset_url }}' defer='defer'></script>
+{%- endif -%}     
+      
+{%- if request.locale.iso_code == 'da' -%}
+  <script src='{{ 'ddshop-faq-lang-da.js' | asset_url }}' defer='defer'></script>
+{%- endif -%}
 </body>
 </html>

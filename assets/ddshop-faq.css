@@ -7318,6 +7318,9 @@ margin: 10px 0;
 .ddshop-faq-answer img {
     height: auto !important;
 }
+.ddshop-faq-answer li {
+    list-style: inherit !important;
+}
 @media (max-width: 768px){
 #ddshop-faq-wrapper{padding-top: 20px;}
 #ddshop-faq-wrapper .modal-content{width:100%;border-radius: 0;}
@@ -7569,7 +7572,7 @@ Main components
   /* hide group not selected */
   display: none;
 }
-.cd-faq-group li{list-style: none !important;}
+.cd-faq-group li{list-style: none;}
 .cd-faq-group.selected {
   display: block;
 }

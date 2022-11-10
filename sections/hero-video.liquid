@@ -98,6 +98,10 @@
                 {{ section.settings.title | newline_to_br }}
               </h2>
             {%- endif -%}
+            {%- unless section.settings.svg_selector == 'none' -%}
+              <h2 class="h1 black-title appear-delay{% cycle '','-2','-4','-6','-8' %}">{%- render 'icon' with {{section.settings.svg_selector}} -%}
+              </h2>
+            {%- endunless -%}
             {%- if section.settings.subheading != blank or section.settings.link_text != blank -%}
               {%- if section.settings.subheading != blank -%}
                 <div class="hero__subtitle appear-delay{% cycle '','-2','-4','-6','-8' %}">
@@ -287,6 +291,24 @@
             "value": "100vh"
           }
         ]
+      },
+      {
+        "type": "select",
+        "id": "svg_selector",
+        "label": "Select title ex. Black Days or Cyber Days",
+        "options": [
+          {
+            "value": "none",
+            "label": "None"
+          }, {
+            "value": "blackdays",
+            "label": "Black Days"
+          }, {
+            "value": "cyberdays",
+            "label": "Cyber Days"
+          }
+        ],
+        "default": "none"
       }
     ],
     "presets": [{

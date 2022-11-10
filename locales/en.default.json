@@ -296,7 +296,7 @@
   "products": {
     "general": {
       "color_swatch_trigger": "Color",
-      "sale": "Sale",
+      "sale": "Save 25% now",
       "save_html": "Save {{ saved_amount }}",
       "next_product": "Next: {{ title }}",
       "sale_price": "Sale price",

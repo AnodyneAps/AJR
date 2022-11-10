@@ -110,7 +110,7 @@
       "title": "Einkaufswagen",
       "remove": "Entfernen",
       "delete_confirm": "Sind Sie sicher, dass Sie diesen Artikel entfernen?",
-      "note": "Besondere Hinweise an den Verkäufer",
+      "note": "Hinweis zur Bestellung:",
       "subtotal": "Zwischensumme",
       "discounts": "Rabatte",
       "shipping_at_checkout": "Rabattcodes, Versandkosten und Steuern werden bei der Bezahlung berechnet.",
@@ -128,7 +128,8 @@
       "item_count": {
         "one": "{{ count }} Artikel",
         "other": "{{ count }} Artikel"
-      }
+      },
+      "note_placeholder": "Hier können Sie eine Notiz zu Ihrer Bestellung hinzufügen..."
     },
     "label": {
       "price": "Preis",

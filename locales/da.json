@@ -1541,7 +1541,7 @@
   "products": {
     "general": {
       "color_swatch_trigger": "Farve",
-      "sale": "Salg",
+      "sale": "Spar 25% nu",
       "save_html": "Gemme {{ saved_amount }}",
       "next_product": "Næste: {{ title }}",
       "sale_price": "Udsalgspris",
